@@ -231,12 +231,12 @@ function Gallery(){
       <SwiperSlide key={index} className="flex justify-center">
         <div
           className="flex items-center justify-center"
-          style={{ width, height }}
+          // style={{ width, height }}
         >
           <img
             src={src}
-            className="w-full h-full object-cover rounded-lg shadow-lg"
-            style={{ width, height }}
+            className="w-full h-full object-cover rounded-lg"
+            // style={{ width, height }}
           />
         </div>
       </SwiperSlide>
