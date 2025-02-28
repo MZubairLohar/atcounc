@@ -322,7 +322,35 @@ function Events() {
             </h1>
           </div>
         </div>
-
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-40" />
+        </div>
+        <div className="flex justify-center  text-black">
+          <div className="w-1/6 text-2xl font-bold">
+            <img className="w-40 h-40" src="/Mistral.jpeg" />
+          </div>
+          <div className="w-2/3 text-md flex flex-col text-left justify-center">
+            <h1 className="text-2xl font-bold">Mistral</h1>
+            <h1>
+              With over 35 years of manufacturing experience, business
+              development, and close working relationships with end-users,
+              system integrators, and technology developers, we are an expert in
+              providing ready, relevant, and reliable solutions to military
+              forces and public safety. Our core competencies include trace
+              detection, blast mitigation, and tactical sensors among others
+              helping first responders and warfighters in their efforts to keep
+              our country safe.
+              {/* <a
+                href="https://www.mossberg.com/"
+                className="text-blue-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.mossberg.com
+              </a> */}
+            </h1>
+          </div>
+        </div>
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
