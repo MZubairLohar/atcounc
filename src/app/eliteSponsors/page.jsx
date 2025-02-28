@@ -48,7 +48,7 @@ function EliteSponsors() {
     </ul>
   </div>
 </div> */}
-      <div className=" bg-[#C1C1C1] h-[204px] flex items-center justify-between px-48">
+      {/* <div className=" bg-[#C1C1C1] h-[204px] flex items-center justify-between px-48">
         <div className="">
           <img
             className="w-30 h-44  text-2xl"
@@ -70,6 +70,46 @@ function EliteSponsors() {
               <a>Elite Sponsors</a>
             </li>
             <li onClick={Sponsors} className="hover:text-red-500">
+              <a>Exhibiting Sponsors</a>
+            </li>
+            <li onClick={Aboutus} className="hover:text-red-500">
+              <a>About Us</a>
+            </li>
+            <li onClick={Partners} className="hover:text-red-500">
+              <a>Partners</a>
+            </li>
+            <li onClick={Gallery} className="hover:text-red-500">
+              <a>Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div> */}
+      <div className="bg-[#C1C1C1] h-auto md:h-[204px] flex flex-col   md:flex-row items-center justify-between px-8 md:px-20 lg:px-52 py-4">
+        {/* Logo */}
+        <div className="mb-4 md:mb-0">
+          <img
+            className="w-30 h-32 md:w-30 md:h-44"
+            src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+            alt="Logo"
+          />
+        </div>
+
+        {/* Navigation Menu */}
+        <div className="w-full md:w-auto">
+          <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
+            <li onClick={Home} className="hover:text-red-500">
+              <a>Home</a>
+            </li>
+            <li onClick={Events} className="hover:text-red-500">
+              <a>Events</a>
+            </li>
+            <li onClick={Speaker} className="hover:text-red-500">
+              <a>Speaker Roster</a>
+            </li>
+            <li onClick={Elite} className="hover:text-red-500  text-red-500">
+              <a>Elite Sponsors</a>
+            </li>
+            <li onClick={Sponsors} className="hover:text-red-500 ">
               <a>Exhibiting Sponsors</a>
             </li>
             <li onClick={Aboutus} className="hover:text-red-500">
