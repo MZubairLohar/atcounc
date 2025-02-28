@@ -182,6 +182,35 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
+        <div className="flex justify-center gap-5 text-black">
+          <div className="w-1/6 text-2xl font-bold">
+            <img className="h-32 w-60" src="/pic21.png" />
+          </div>
+          <div className="w-2/3 text-md flex flex-col text-left justify-center">
+            <h1 className="text-2xl font-bold">
+              Black River Defensive Solutions
+            </h1>
+            <h1>
+              The mission at Black River Defensive Solutions is to provide
+              Medical and Firearms Training and Consultation. Providing next
+              level firearms training for responsible gun owners in the
+              fundamentals of marksmanship, NJ Concealed Carry and the
+              responsibility that comes with it, and developing skillsets for
+              every day carry (EDC).
+              <a
+                href="https://blackriverdefensivesolutions.com/"
+                className="text-blue-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                blackriverdefensivesolutions.com
+              </a>
+            </h1>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-40" />
+        </div>
         <div className="flex justify-center text-black gap-5">
           <div className="w-1/6 text-2xl font-bold">
             <img className="w-68 h-40" src="/pic7.jpeg" />
@@ -233,58 +262,6 @@ function Events() {
             </h1>
           </div>
         </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-7 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40 w-60" src="/pic9.jpg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">UNITY Tactical</h1>
-            <h1>
-              UNITY Tactical designs components that integrate tactical systems
-              and expand capability for peak performance. We challenge
-              assumptions and identify overlooked problems that impact the human
-              factor so we can develop innovative, quality products to fill
-              those needs. Every detail gives you an edge through efficiency,
-              comfort and safety so you can focus on the mission.
-              <a
-                href="https://www.unitytactical.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.unitytactical.com
-              </a>
-            </h1>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40" src="/pic10.png" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Vaultek Safe</h1>
-            <h1>
-              Vaultek is an American security technology company specializing in
-              portable personal security manufacturing advanced smart safes with
-              industry leading innovation.
-              <a
-                href="https://vaulteksafe.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                vaulteksafe.com
-              </a>
-            </h1>
-          </div>
-        </div>
-
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
@@ -345,6 +322,7 @@ function Events() {
             </h1>
           </div>
         </div>
+
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
@@ -401,6 +379,7 @@ function Events() {
             </h1>
           </div>
         </div>
+
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
@@ -433,6 +412,7 @@ function Events() {
             </h1>
           </div>
         </div>
+
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
@@ -507,6 +487,84 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
+        <div className="flex justify-center gap-7 text-black">
+          <div className="w-1/6 text-2xl font-bold">
+            <img className="h-40" src="/pic22.jpeg" />
+          </div>
+          <div className="w-2/3 text-md flex flex-col text-left justify-center">
+            <h1 className="text-2xl font-bold">U.S. Elite</h1>
+            <h1>
+              We exist to Enhance the Warrior Lifestyle — the spirit that
+              defines those brave, committed and intrepid souls who seek to push
+              themselves to their greatest limits and beyond. We honor, serve
+              and respect these fine men and women by helping them to achieve
+              and enhance their desired level of performance, safety, comfort
+              and all around lifestyle.
+              <a
+                href="https://www.us-elitegear.com/"
+                className="text-blue-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.us-elitegear.com
+              </a>
+            </h1>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-40" />
+        </div>
+        <div className="flex justify-center gap-7 text-black">
+          <div className="w-1/6 text-2xl font-bold">
+            <img className="h-40 w-60" src="/pic9.jpg" />
+          </div>
+          <div className="w-2/3 text-md flex flex-col text-left justify-center">
+            <h1 className="text-2xl font-bold">UNITY Tactical</h1>
+            <h1>
+              UNITY Tactical designs components that integrate tactical systems
+              and expand capability for peak performance. We challenge
+              assumptions and identify overlooked problems that impact the human
+              factor so we can develop innovative, quality products to fill
+              those needs. Every detail gives you an edge through efficiency,
+              comfort and safety so you can focus on the mission.
+              <a
+                href="https://www.unitytactical.com/"
+                className="text-blue-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.unitytactical.com
+              </a>
+            </h1>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-40" />
+        </div>
+        <div className="flex justify-center gap-5 text-black">
+          <div className="w-1/6 text-2xl font-bold">
+            <img className="h-40" src="/pic10.png" />
+          </div>
+          <div className="w-2/3 text-md flex flex-col text-left justify-center">
+            <h1 className="text-2xl font-bold">Vaultek Safe</h1>
+            <h1>
+              Vaultek is an American security technology company specializing in
+              portable personal security manufacturing advanced smart safes with
+              industry leading innovation.
+              <a
+                href="https://vaulteksafe.com/"
+                className="text-blue-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                vaulteksafe.com
+              </a>
+            </h1>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-40" />
+        </div>
         <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic19.jpeg" />
@@ -565,62 +623,7 @@ function Events() {
             </h1>
           </div>
         </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-32 w-60" src="/pic21.png" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">
-              Black River Defensive Solutions
-            </h1>
-            <h1>
-              The mission at Black River Defensive Solutions is to provide
-              Medical and Firearms Training and Consultation. Providing next
-              level firearms training for responsible gun owners in the
-              fundamentals of marksmanship, NJ Concealed Carry and the
-              responsibility that comes with it, and developing skillsets for
-              every day carry (EDC).
-              <a
-                href="https://blackriverdefensivesolutions.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                blackriverdefensivesolutions.com
-              </a>
-            </h1>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-7 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40" src="/pic22.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">U.S. Elite</h1>
-            <h1>
-              We exist to Enhance the Warrior Lifestyle — the spirit that
-              defines those brave, committed and intrepid souls who seek to push
-              themselves to their greatest limits and beyond. We honor, serve
-              and respect these fine men and women by helping them to achieve
-              and enhance their desired level of performance, safety, comfort
-              and all around lifestyle.
-              <a
-                href="https://www.us-elitegear.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.us-elitegear.com
-              </a>
-            </h1>
-          </div>
-        </div>
+
         <div className="flex items-center justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
