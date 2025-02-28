@@ -58,7 +58,7 @@ function Events() {
             <li onClick={Home} className="hover:text-red-500">
               <a>Home</a>
             </li>
-            <li onClick={Events} className="hover:text-red-500">
+            <li onClick={Events} className="hover:text-red-500  text-red-500">
               <a>Events</a>
             </li>
             <li onClick={Speaker} className="hover:text-red-500">
@@ -70,7 +70,7 @@ function Events() {
             <li onClick={Sponsors} className="hover:text-red-500">
               <a>Exhibiting Sponsors</a>
             </li>
-            <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
+            <li onClick={Aboutus} className="hover:text-red-500 ">
               <a>About Us</a>
             </li>
             <li onClick={Partners} className="hover:text-red-500">

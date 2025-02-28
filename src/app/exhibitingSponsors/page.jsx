@@ -53,7 +53,7 @@ function Events() {
             <li onClick={Sponsors} className="hover:text-red-500">
               <a>Exhibiting Sponsors</a>
             </li>
-            <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
+            <li onClick={Aboutus} className="hover:text-red-500 ">
               <a>About Us</a>
             </li>
             <li onClick={Partners} className="hover:text-red-500">

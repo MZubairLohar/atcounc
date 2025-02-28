@@ -66,13 +66,13 @@ function EliteSponsors() {
             <li onClick={Speaker} className="hover:text-red-500">
               <a>Speaker Roster</a>
             </li>
-            <li onClick={Elite} className="hover:text-red-500">
+            <li onClick={Elite} className="hover:text-red-500  text-red-500">
               <a>Elite Sponsors</a>
             </li>
             <li onClick={Sponsors} className="hover:text-red-500">
               <a>Exhibiting Sponsors</a>
             </li>
-            <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
+            <li onClick={Aboutus} className="hover:text-red-500">
               <a>About Us</a>
             </li>
             <li onClick={Partners} className="hover:text-red-500">

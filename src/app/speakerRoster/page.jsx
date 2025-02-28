@@ -61,7 +61,7 @@ function Events() {
             <li onClick={Events} className="hover:text-red-500">
               <a>Events</a>
             </li>
-            <li onClick={Speaker} className="hover:text-red-500">
+            <li onClick={Speaker} className="hover:text-red-500  text-red-500">
               <a>Speaker Roster</a>
             </li>
             <li onClick={Elite} className="hover:text-red-500">
@@ -70,7 +70,7 @@ function Events() {
             <li onClick={Sponsors} className="hover:text-red-500">
               <a>Exhibiting Sponsors</a>
             </li>
-            <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
+            <li onClick={Aboutus} className="hover:text-red-500 ">
               <a>About Us</a>
             </li>
             <li onClick={Partners} className="hover:text-red-500">
@@ -206,7 +206,7 @@ function Events() {
         </div>
         <div className="flex items-center justify-center gap-10 text-black">
           <div className="w-1/6 text-2xl font-bold ">
-            <img src="https://atcouncil.us/static/media/DianeChange.ac8b473ed6af172afc4b.jpeg" />
+            <img src="/Dee-Smith.jpg" />
           </div>
           <div className="w-3/5 text-md space-y-6">
             <h1 className="text-2xl font-bold">

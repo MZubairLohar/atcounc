@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className="flex items-center">
           <ul className="menu menu-horizontal text-black  flex items-center">
-            <li onClick={Home} className="hover:text-red-500">
+            <li onClick={Home} className="hover:text-red-500  text-red-500">
               <a>Home</a>
             </li>
             <li onClick={Events} className="hover:text-red-500">
@@ -69,7 +69,7 @@ export default function Home() {
             <li onClick={Sponsors} className="hover:text-red-500">
               <a>Exhibiting Sponsors</a>
             </li>
-            <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
+            <li onClick={Aboutus} className="hover:text-red-500">
               <a>About Us</a>
             </li>
             <li onClick={Partners} className="hover:text-red-500">
@@ -83,7 +83,7 @@ export default function Home() {
       </div>
 
       <div className="relative w-full ">
-        <div className="bg-blue-700">
+        <div className="">
           <img
             src="/image.png"
             alt="Background"
@@ -91,7 +91,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="absolute top-0 left-0  w-full h-full flex flex-col pt-16 bg-blue-600  bg-opacity-40 text-white text-lg font-semibold space-y-6">
+        <div className="absolute top-0 left-0  w-full h-full flex flex-col pt-16 bg-[#0818A8]   bg-opacity-40 text-white text-lg font-semibold space-y-6">
           <p className="text-5xl text-center font-extrabold">
             NYC Anti-Terrorism Symposium Conference
           </p>
