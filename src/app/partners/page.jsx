@@ -73,7 +73,7 @@ function Events() {
             <li onClick={Aboutus} className="hover:text-red-500 ">
               <a>About Us</a>
             </li>
-            <li onClick={Partners} className="hover:text-red-500">
+            <li onClick={Partners} className="hover:text-red-500  text-red-500">
               <a>Partners</a>
             </li>
             <li onClick={Gallery} className="hover:text-red-500">
@@ -92,7 +92,7 @@ function Events() {
         </div>
         <div className="flex items-center justify-center text-black">
           <div className="w-1/6 text-2xl font-bold">
-            <img className="h-60 w-80" src="/check-pic5.png" />
+            <img className="h-80 w-100" src="/check-pic5.png" />
           </div>
           <div className="w-2/3 text-md flex flex-col text-left justify-center">
             <h1 className="text-2xl font-bold">TUNNELS TO TOWERS</h1>
@@ -114,7 +114,7 @@ function Events() {
 
         <div className="flex items-center justify-center gap-4 text-black">
           <div className="w-1/6 text-2xl font-bold">
-            <img src="/The Legacy Alliance.png" />
+            <img className="h-60 w-80" src="/The Legacy Alliance.png" />
           </div>
           <div className="w-2/3 text-md">
             <h1 className="text-2xl font-bold">THE LEGACY ALLIANCE </h1>

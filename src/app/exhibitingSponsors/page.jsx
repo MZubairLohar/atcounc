@@ -50,7 +50,7 @@ function Events() {
             <li onClick={Elite} className="hover:text-red-500">
               <a>Elite Sponsors</a>
             </li>
-            <li onClick={Sponsors} className="hover:text-red-500">
+            <li onClick={Sponsors} className="hover:text-red-500  text-red-500">
               <a>Exhibiting Sponsors</a>
             </li>
             <li onClick={Aboutus} className="hover:text-red-500 ">
@@ -73,7 +73,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex items-center justify-center text-black">
+        <div className="flex items-center justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40 w-60" src="/pic2.png" />
           </div>
@@ -98,7 +98,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40 w-60" src="/pic3.jpeg" />
           </div>
@@ -124,7 +124,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex  items-center justify-center text-black">
+        <div className="flex  items-center justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="w-60 h-40" src="/pic4.jpeg" />
           </div>
@@ -154,7 +154,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="w-60 h-40" src="/pic6.jpeg" />
           </div>
@@ -182,7 +182,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center text-black gap-5">
           <div className="w-1/6 text-2xl font-bold">
             <img className="w-68 h-40" src="/pic7.jpeg" />
           </div>
@@ -209,7 +209,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40 w-52" src="/pic8.png" />
           </div>
@@ -236,7 +236,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center gap-4 text-black">
+        <div className="flex justify-center gap-7 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40 w-60" src="/pic9.jpg" />
           </div>
@@ -263,7 +263,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic10.png" />
           </div>
@@ -288,7 +288,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic11.jpeg" />
           </div>
@@ -318,7 +318,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic12.jpeg" />
           </div>
@@ -348,7 +348,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40 w-56" src="/pic13.png" />
           </div>
@@ -373,7 +373,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic14.jpeg" />
           </div>
@@ -404,7 +404,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic15.jpeg" />
           </div>
@@ -436,7 +436,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic16.jpeg" />
           </div>
@@ -462,7 +462,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic17.jpeg" />
           </div>
@@ -489,7 +489,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-32 w-60" src="/pic18.png" />
           </div>
@@ -507,7 +507,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic19.jpeg" />
           </div>
@@ -539,7 +539,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40 w-60" src="/pic20.jpeg" />
           </div>
@@ -568,7 +568,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-5 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-32 w-60" src="/pic21.png" />
           </div>
@@ -597,7 +597,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center text-black">
+        <div className="flex justify-center gap-7 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="h-40" src="/pic22.jpeg" />
           </div>
@@ -624,7 +624,7 @@ function Events() {
         <div className="flex items-center justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex items-center  justify-center gap-4 text-black">
+        <div className="flex items-center  justify-center gap-8 text-black">
           <div className="w-1/6 text-2xl font-bold">
             <img className="w-64 h-32" src="/Zenith-Logo.png" />
           </div>
