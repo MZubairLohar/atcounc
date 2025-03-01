@@ -124,7 +124,7 @@ function EliteSponsors() {
           </ul>
         </div>
       </div>
-      <div className="mt-14 space-x-20 space-y-10">
+      {/* <div className="mt-14 space-x-20 space-y-10">
         <h1 className="text-black text-center text-5xl font-bold">
           ELITE SPONSORS
         </h1>
@@ -243,9 +243,107 @@ function EliteSponsors() {
             </h1>
           </div>
         </div>
+      </div> */}
+      <div className="mt-14 space-y-10 mx-40">
+        <h1 className="text-black text-center text-4xl md:text-5xl font-bold">
+          ELITE SPONSORS
+        </h1>
+
+        <div className="flex items-center  justify-center">
+          <hr className="border-black w-full md:w-11/12" />
+        </div>
+
+        {/* Sponsor Sections */}
+        {[
+          {
+            img: "/pic23.jpeg",
+            title: "ELEVEN10 GEAR",
+            description: `Eleven 10®, based in Cleveland, Ohio, is a manufacturer of
+              high-quality self-aid/buddy-aid gear that is proudly made in the
+              USA. We were founded by 2 brothers: a former Reconnaissance Marine
+              and current tactical paramedic, the other is a longtime police
+              officer and an active SWAT commander. This gives us the unique
+              insight of MIL/LE Special Operations, trauma medicine, and the
+              street cop. We’ve taken our personal experiences and designed
+              medical carrying equipment based on the lessons learned from the
+              streets of America & the conflicts in the Middle East.
+`,
+            link: "https://1110gear.com/",
+          },
+          {
+            img: "/pic24.jpeg",
+            title: "Benchmade Knives",
+            description: ` For two decades Benchmade has been designing and manufacturing the
+              world's finest knives and edged tools. Our products are developed
+              and tested for extreme duty and are the preferred cutting tools
+              for Elite Military Troops and Public Safety Professionals around
+              the globe. You can count on your Benchmade to get the job done.
+              USA Proud!`,
+            link: "https://www.benchmade.com/",
+          },
+          {
+            img: "/pic25.png",
+            title: "CIRCLESQUARED",
+            description: `              Founded in 2014, Circle Squared Alternative Investments LLC (CSQ)
+              is a privately held Real Estate Investment firm. Founder Jeff
+              Sica’s vision and belief is that sophisticated investors want and
+              deserve access to alternatives to the public markets. Working with
+              accomplished real estate developers with track records and deep
+              experience while creating strong investment partnerships, CSQ has
+              connected family offices and high net worth individuals with real
+              estate projects that have traditionally only been available to
+              institutional investors. CSQ is dedicated to helping you bridge
+              the gap between your investment goals and your ability to achieve
+              them.`,
+            link: "https://www.circlesquaredalts.com",
+          },
+          {
+            img: "/pic26.jpeg",
+            title: "SHOREHAVEN",
+            description: `  As your advocate and fiduciary, we will custom-build a financial
+              plan for you – one that is designed to help you protect, grow, and
+              transition your wealth.`,
+            link: "https://www.shorehavenwealth.com/",
+          },
+        ].map((sponsor, index) => (
+          <div key={index}>
+            <div className="flex mx-40 flex-col md:flex-row items-center text-black text-center md:text-left space-y-6 md:space-y-0 md:space-x-6">
+              {/* Image Container */}
+              <div className="w-3/4 md:w-1/6 flex justify-center">
+                <img
+                  src={sponsor.img}
+                  alt={sponsor.title}
+                  className="w-full max-w-[150px] md:max-w-none h-auto object-contain"
+                />
+              </div>
+
+              {/* Text Content */}
+              <div className="w-full md:w-2/3 flex flex-col items-center md:items-start">
+                <h1 className="text-xl md:text-2xl font-bold">
+                  {sponsor.title}
+                </h1>
+                <p className="text-sm md:text-md leading-relaxed">
+                  {sponsor.description}
+                  <a
+                    href={sponsor.link}
+                    className="text-blue-500 underline block md:inline mt-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {sponsor.link}
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div className="flex justify-center mt-6">
+              <hr className="border-black w-full md:w-11/12" />
+            </div>
+          </div>
+        ))}
       </div>
 
-      <div className="flex justify-center bg-[#767676] h-28 items-center text-center mt-10 gap-40">
+      <div className="flex  justify-center bg-[#767676] h-28 items-center text-center mt-10 gap-40">
         <div className="text-xl font-bold">
           Office:
           <br />

@@ -94,7 +94,7 @@ function Events() {
 
         {/* Navigation Menu */}
         <div className="w-full md:w-auto">
-          <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
+          <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center  font-thin text-sm md:text-thin">
             <li onClick={Home} className="hover:text-red-500">
               <a>Home</a>
             </li>
@@ -195,7 +195,7 @@ function Events() {
         <hr className="border-black w-11/12" />
       </div>
 
-      <div className="flex justify-center bg-[#767676] h-28 items-center mt-8 text-center gap-40">
+      {/* <div className="flex justify-center bg-[#767676] h-28 items-center mt-8 text-center gap-40">
         <div className="text-xl font-bold">
           Office:
           <br />
@@ -213,8 +213,30 @@ function Events() {
           <br />
           <span className="text-lg font-light">diane.barton@atcouncil.us</span>
         </div>
+      </div> */}
+      <div className="flex flex-col md:flex-row justify-center bg-[#767676] h-auto md:h-28 items-center mt-8 text-center gap-6 md:gap-40 p-6">
+        <div className="text-lg md:text-xl font-bold">
+          Office:
+          <br />
+          <span className="text-base md:text-lg font-light">
+            New York, NY - Undisclosed Location
+          </span>
+        </div>
+        <div className="text-lg md:text-xl font-bold">
+          Call:
+          <br />
+          <span className="text-base md:text-lg font-light">
+            (914) 760 - 9853
+          </span>
+        </div>
+        <div className="text-lg md:text-xl font-bold">
+          Email:
+          <br />
+          <span className="text-base md:text-lg font-light">
+            diane.barton@atcouncil.us
+          </span>
+        </div>
       </div>
-
       <div className="flex flex-col justify-center items-center h-80 bg-[#E93D3D]">
         <img
           className="h-40 w-28"

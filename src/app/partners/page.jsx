@@ -122,20 +122,25 @@ function Events() {
           </ul>
         </div>
       </div>
-      <div className="mt-14 space-x-20 space-y-10">
-        <h1 className="text-black text-center text-6xl font-bold">
+      <div className="mt-14 space-y-10">
+        <h1 className="text-black text-center text-4xl md:text-5xl lg:text-6xl font-bold">
           OUR PARTNERS
         </h1>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
+        <div className="flex justify-center mx-40">
+          <hr className="border-black w-11/12" />
         </div>
-        <div className="flex items-center justify-center text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-80 w-100" src="/check-pic5.png" />
+
+        {/* First Partner */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-1 text-black">
+          <div className="w-full md:w-1/6 flex justify-center">
+            <img
+              className="w-full max-w-xs md:max-w-sm lg:max-w-md"
+              src="/check-pic5.png"
+            />
           </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-md text-center md:text-left">
             <h1 className="text-2xl font-bold">TUNNELS TO TOWERS</h1>
-            <h1>
+            <p>
               The Tunnel to Towers Foundation honors the sacrifice of
               firefighter Stephen Siller who laid down his life to save others
               on September 11, 2001. They also honor our military and first
@@ -143,21 +148,25 @@ function Events() {
               limb for our country. Over $250 Million Dollars donated to various
               programs. The MTU is honored to be working alongside this
               foundation.
-            </h1>
+            </p>
           </div>
         </div>
 
         <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
+          <hr className="border-black w-11/12" />
         </div>
 
-        <div className="flex items-center justify-center gap-4 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-60 w-80" src="/The Legacy Alliance.png" />
+        {/* Second Partner */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-1 text-black mx-40">
+          <div className="w-full md:w-1/6 flex justify-center">
+            <img
+              className="w-full max-w-xs md:max-w-sm lg:max-w-md"
+              src="/The Legacy Alliance.png"
+            />
           </div>
-          <div className="w-2/3 text-md">
-            <h1 className="text-2xl font-bold">THE LEGACY ALLIANCE </h1>
-            <h1>
+          <div className="w-full md:w-2/3 text-md text-center md:text-center mx-40">
+            <h1 className="text-2xl font-bold">THE LEGACY ALLIANCE</h1>
+            <p>
               At The Legacy Alliance, we appreciate that true satisfaction lies
               not only in personal accomplishments but also in the positive
               influence we exert on others. Our mastermind tribe provides a
@@ -165,29 +174,33 @@ function Events() {
               significance. By aligning with other ambitious individuals who
               resonate with your values, you’ll receive steadfast support,
               motivation, and guidance as you aim to leave a lasting imprint on
-              the world
-            </h1>
+              the world.
+            </p>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center bg-[#767676] h-28 items-center text-center mt-10 gap-40">
-        <div className="text-xl font-bold">
+      <div className="flex flex-col md:flex-row justify-center bg-[#767676] h-auto md:h-28 items-center mt-8 text-center gap-6 md:gap-40 p-6">
+        <div className="text-lg md:text-xl font-bold">
           Office:
           <br />
-          <span className="text-lg font-light">
+          <span className="text-base md:text-lg font-light">
             New York, NY - Undisclosed Location
           </span>
         </div>
-        <div className="text-xl font-bold">
+        <div className="text-lg md:text-xl font-bold">
           Call:
           <br />
-          <span className="text-lg font-light">(914) 760 - 9853</span>
+          <span className="text-base md:text-lg font-light">
+            (914) 760 - 9853
+          </span>
         </div>
-        <div className="text-xl font-bold">
+        <div className="text-lg md:text-xl font-bold">
           Email:
           <br />
-          <span className="text-lg font-light">diane.barton@atcouncil.us</span>
+          <span className="text-base md:text-lg font-light">
+            diane.barton@atcouncil.us
+          </span>
         </div>
       </div>
 

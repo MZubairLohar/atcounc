@@ -163,40 +163,52 @@ function Events() {
           <hr className="border-black w-11/12" />
         </div>
       </div> */}
-      <div className="mt-14 space-y-10 flex flex-col items-center">
-        <h1 className="text-black text-center text-5xl font-bold">EVENTS</h1>
+      <div className="mt-14 space-y-10 flex flex-col items-center px-4">
+        {/* EVENTS Heading */}
+        <h1 className="text-black text-center text-3xl md:text-5xl font-bold">
+          EVENTS
+        </h1>
 
-        <div className="flex flex-col items-center w-11/12 space-y-10">
-          <hr className="border-black w-11/12" />
+        <div className="flex flex-col items-center w-full md:w-11/12 space-y-10">
+          <hr className="border-black w-full md:w-11/12" />
+
           {/* First Event */}
-          <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4">
-            <div className="w-full md:w-1/3 text-2xl font-bold text-center md:text-left">
+          <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4 space-y-6 md:space-y-0">
+            {/* Date and Time */}
+            <div className="w-full md:w-1/3 text-xl md:text-2xl font-bold text-center md:text-left">
               <h1>November 12, 2024</h1>
               <h1>6PM</h1>
             </div>
-            <div className="w-full md:w-2/3 text-2xl text-center md:text-left">
-              <h1 className="text-2xl font-bold">ATC Focus Dinner</h1>
+
+            {/* Event Details */}
+            <div className="w-full md:w-2/3 text-xl md:text-2xl text-center md:text-left">
+              <h1 className="text-xl md:text-2xl font-bold">
+                ATC Focus Dinner
+              </h1>
               <h1>Benjamin Prime Steakhouse</h1>
               <h1>
                 23 E 40th St., Between Park and Madison Avenue, New York City,
                 NY 10016
               </h1>
-              <button className="btn btn-error bg-red-500 text-xl text-white px-6 py-2 mt-4">
+              <button className="btn btn-error bg-red-500 text-lg md:text-xl text-white px-4 md:px-6 py-2 mt-4">
                 LEARN MORE
               </button>
             </div>
           </div>
 
-          <hr className="border-black w-11/12" />
+          <hr className="border-black w-full md:w-11/12" />
 
           {/* Second Event */}
-          <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4">
-            <div className="w-full md:w-1/3 text-2xl font-bold text-center md:text-left">
+          <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4 space-y-6 md:space-y-0">
+            {/* Date and Time */}
+            <div className="w-full md:w-1/3 text-xl md:text-2xl font-bold text-center md:text-left">
               <h1>April 10-11, 2025</h1>
               <h1>8:00AM-4:00PM</h1>
             </div>
-            <div className="w-full md:w-2/3 text-2xl text-center md:text-left">
-              <h1 className="text-2xl font-bold">
+
+            {/* Event Details */}
+            <div className="w-full md:w-2/3 text-xl md:text-2xl text-center md:text-left">
+              <h1 className="text-xl md:text-2xl font-bold">
                 Annual NYC Anti-Terrorism Symposium
               </h1>
               <h1>New York Downtown Marriott</h1>
@@ -204,11 +216,11 @@ function Events() {
             </div>
           </div>
 
-          <hr className="border-black w-11/12" />
+          <hr className="border-black w-full md:w-11/12" />
         </div>
       </div>
 
-      <div className="flex justify-center bg-[#767676] h-28 items-center mt-8 text-center gap-40">
+      {/* <div className="flex justify-center bg-[#767676] h-28 items-center mt-8 text-center gap-40">
         <div className="text-xl font-bold">
           Office:
           <br />
@@ -225,6 +237,29 @@ function Events() {
           Email:
           <br />
           <span className="text-lg font-light">diane.barton@atcouncil.us</span>
+        </div>
+      </div> */}
+      <div className="flex flex-col md:flex-row justify-center bg-[#767676] h-auto md:h-28 items-center mt-8 text-center gap-6 md:gap-40 p-6">
+        <div className="text-lg md:text-xl font-bold">
+          Office:
+          <br />
+          <span className="text-base md:text-lg font-light">
+            New York, NY - Undisclosed Location
+          </span>
+        </div>
+        <div className="text-lg md:text-xl font-bold">
+          Call:
+          <br />
+          <span className="text-base md:text-lg font-light">
+            (914) 760 - 9853
+          </span>
+        </div>
+        <div className="text-lg md:text-xl font-bold">
+          Email:
+          <br />
+          <span className="text-base md:text-lg font-light">
+            diane.barton@atcouncil.us
+          </span>
         </div>
       </div>
 
