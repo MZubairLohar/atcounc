@@ -366,9 +366,9 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-40" />
         </div>
-        <div className="flex justify-center  text-black">
+        <div className="flex items-center justify-center gap-6 text-black">
           <div className="w-1/6 text-2xl font-bold">
-            <img className="w-40 h-40" src="/Mistral.jpeg" />
+            <img className="w-64 h-auto" src="/Mistral.jpeg" />
           </div>
           <div className="w-2/3 text-md flex flex-col text-left justify-center">
             <h1 className="text-2xl font-bold">Mistral</h1>
