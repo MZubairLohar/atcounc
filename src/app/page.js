@@ -80,20 +80,20 @@ export default function Home() {
             </li>
           </ul>
         </div>
-      </div> */}
-      <div className="bg-[#C1C1C1] h-auto md:h-[204px] flex flex-col    md:flex-row items-center justify-between px-8 md:px-20 lg:px-52 py-4">
+      </div> */} 
+      <div className="bg-[#C1C1C1] h-[28%] md:h-[204px] flex flex-col md:flex-row items-center justify-between px-8 md:px-20 lg:px-52 py-[7.3%]">
         {/* Logo */}
-        <div className="mb-4 md:mb-0">
+        <div className="mb-4 -ml-[7.5%] md:mb-0">
           <img
-            className="w-30 h-32 md:w-30 md:h-44"
+            className="w-30 h-34 md:w-30 md:h-44"
             src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
             alt="Logo"
           />
         </div>
 
         {/* Navigation Menu */}
-        <div className="w-full md:w-auto">
-          <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
+        <div className="w-full -mr-[6.5%] mt-[1%] md:w-auto">
+          <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center  text-sm md:text-thin">
             <li onClick={Home} className="hover:text-red-500  text-red-500">
               <a>Home</a>
             </li>
@@ -102,7 +102,7 @@ export default function Home() {
             </li>
             <li onClick={Speaker} className="hover:text-red-500">
               <a>Speaker Roster</a>
-            </li>
+            </li> 
             <li onClick={Elite} className="hover:text-red-500">
               <a>Elite Sponsors</a>
             </li>
@@ -121,38 +121,18 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      {/* <div className="relative w-full ">
+      
+      <div className="relative  h-[340px]  w-full">
         <div className="">
           <img
-            src="/image.png"
+            src="/building-pic.jpeg"
             alt="Background"
-            className="w-full h-[360px] object-cover"
+            className="w-full h-[370px] -z-0 object-cover "
           />
         </div>
-
-        <div className="absolute top-0 left-0  w-full h-full flex flex-col pt-16 bg-[#0818A8]   bg-opacity-40 text-white text-lg font-semibold space-y-6">
-          <p className="text-5xl text-center font-extrabold">
-            NYC Anti-Terrorism Symposium Conference
-          </p>
-          <p className="text-3xl ml-56 font-extralight">
-            New York Downtown Marriott <br />
-            <span className="text-xl font-thin">New York, NY 10006</span>
-          </p>
-          <p className="text-3xl ml-56 font-extrabold">April 10-11, 2025</p>
-          <p className="text-3xl ml-56 font-extrabold">8:00AM-4:00PM</p>
-        </div>
-      </div> */}
-      <div className="relative w-full">
-        <div className="">
-          <img
-            src="/image.png"
-            alt="Background"
-            className="w-full h-[360px] object-cover"
-          />
-        </div>
-
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col pt-16 pb-16  bg-[#0818A8] bg-opacity-40 text-white text-lg font-semibold space-y-6">
-          <p className="text-3xl sm:text-3xl md:text-5xl text-center font-extrabold px-4">
+        {/* bg-[#02053d] bg-opacity-40 */}
+        <div className="absolute z-10 top-0 left-0 w-full h-[370px] flex flex-col pt-16 pb-16 bg-[#080f87] bg-opacity-50 text-white text-lg font-semibold space-y-6">
+          <p className="text-3xl sm:text-3xl md:text-5xl relative text-center font-extrabold px-4">
             NYC Anti-Terrorism Symposium Conference
           </p>
           <p className="text-lg sm:text-xl md:text-3xl text-center md:text-start  md:ml-56 font-extralight">
@@ -170,83 +150,57 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div>
-        <h1 className="text-black text-center text-2xl mt-10">
+
+      <div className="w-full  px-4">
+        <h1 className="text-black text-center text-lg sm:text-2xl mt-14">
           ELITE SPONSORS
         </h1>
-        <div className="flex justify-center w-full">
+
+        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-5 w-full mt-2">
           <img
             src="/pic23.jpeg"
             alt="Logo 1"
-            className="w-80 h-60 object-contain"
+            className="w-38 h-28  sm:w-60 sm:h-48 md:w-[19%] md:h-60 object-contain"
           />
           <img
             src="/pic24.jpeg"
             alt="Logo 2"
-            className="w-80 h-60 object-contain"
+            className="w-38 h-28 sm:w-60 sm:h-48 md:w-[19%] md:h-60 object-contain"
           />
           <img
             src="/pic25.png"
             alt="Logo 3"
-            className="w-80 h-60 object-contain"
+            className="w-38 h-28 sm:w-60 sm:h-48 md:w-[19%] md:h-60 object-contain"
           />
           <img
             src="/pic26.jpeg"
             alt="Logo 4"
-            className="w-80 h-60 object-contain"
-          />
-        </div>
-      </div> */}
-
-      <div className="w-full px-4">
-        <h1 className="text-black text-center text-xl sm:text-2xl mt-10">
-          ELITE SPONSORS
-        </h1>
-
-        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 w-full mt-4">
-          <img
-            src="/pic23.jpeg"
-            alt="Logo 1"
-            className="w-40 h-32 sm:w-60 sm:h-48 md:w-80 md:h-60 object-contain"
-          />
-          <img
-            src="/pic24.jpeg"
-            alt="Logo 2"
-            className="w-40 h-32 sm:w-60 sm:h-48 md:w-80 md:h-60 object-contain"
-          />
-          <img
-            src="/pic25.png"
-            alt="Logo 3"
-            className="w-40 h-32 sm:w-60 sm:h-48 md:w-80 md:h-60 object-contain"
-          />
-          <img
-            src="/pic26.jpeg"
-            alt="Logo 4"
-            className="w-40 h-32 sm:w-60 sm:h-48 md:w-80 md:h-60 object-contain"
+            className="w-38 h-28 sm:w-60 sm:h-48 md:w-[19%] md:h-60 object-contain"
           />
         </div>
       </div>
-
+      {/*  */}
       <div className="flex flex-col md:flex-row bg-[#F7F7F7] items-center md:items-start">
         {/* Left Section (Text) */}
-        <div className="w-full md:w-3/6 px-6 sm:px-12 md:pl-40 mt-10 text-black">
-          <div className="w-full md:w-3/4 mt-12 sm:mt-16 md:mt-24 space-y-6 sm:space-y-12">
-            <h1 className="text-red-500 font-bold text-lg sm:text-xl">
+        <div className="w-full md:w-4/6 px-4 sm:px-12 md:pl-38 ml-10 mt-10 text-black">
+          <div className="w-full md:w-3/4 mt-12 ml-12 sm:mt-16 md:mt-24 space-y-4 sm:space-y-12">
+            <h1 className="text-red-500 font-bold text-lg sm:text-xl ">
               OUR FOCUS
             </h1>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl md:leading-[120%] font-bold ">
               THE SYMPOSIUM <span>MISSION</span>
             </h1>
-            <h1 className="text-gray-400 text-base sm:text-lg md:text-xl">
+            {/* text-gray-400 */}
+            <h1 className=" color-[#636262] text-[16px] font-montserrat sm:text-lg md:text-sm/7 ">
               The Anti-Terrorism Symposium is designed to provide you with the
               knowledge, skills, tactics, and equipment needed to survive in an
               increasingly uncertain world. Our goal is that you leave with new
               skills and information leaving you adaptable to any situation.
             </h1>
-            <div className="flex justify-center md:justify-start">
+            <div className="flex place-self-center md:place-self-center ">
               <button
                 onClick={Aboutus}
-                className="btn btn-error bg-red-500 text-lg sm:text-xl text-white px-4 py-2"
+                className="btn btn-error bg-red-500 text-lg sm:text-xl text-white px-4 py-1 "
               >
                 Our Story
               </button>
@@ -255,10 +209,10 @@ export default function Home() {
         </div>
 
         {/* Right Section (Image) */}
-        <div className="w-full md:w-3/6 flex justify-center md:justify-end mt-6 md:mt-0">
+        <div className="w-[74%] md:w-/6 flex justify-center md:justify-end mt-6 md:mt-0">
           <img
             src="https://atcouncil.us/static/media/ArmyPic.cd4ca121b07ad9ade30c.png"
-            className="w-72 sm:w-96 md:w-[800px] h-auto object-cover"
+            className="w-82 sm:w-96 md:w-[880px] h-[100%] object-cover"
           />
         </div>
       </div>
@@ -276,20 +230,20 @@ export default function Home() {
           OUR PARTNERS
         </h1>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-28 pt-10 sm:pt-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-28 -mt-10 sm:pt-20">
           {/* First Image */}
           <img
-            className="w-full max-w-xs sm:max-w-sm md:w-80 h-auto"
+            className="w-full max-w-xs sm:max-w-sm md:w-[18%] h-auto"
             src="/check-pic5.png"
             alt="Partner 1"
           />
 
           {/* Divider (Hidden on Small Screens) */}
-          <div className="hidden md:block w-[1px] h-60 bg-black"></div>
+          <div className="hidden md:block w-[0.5px] h-60 bg-black"></div>
 
           {/* Second Image */}
           <img
-            className="w-full max-w-xs sm:max-w-sm md:w-80 h-auto"
+            className="w-full max-w-xs sm:max-w-sm md:w-[18%] h-auto"
             src="/The Legacy Alliance.png"
             alt="Partner 2"
           />
@@ -297,62 +251,12 @@ export default function Home() {
       </div>
 
       <div>
-        <h1 className="text-black font-thin text-center text-2xl mt-10">
+        <h1 className="text-black font-base text-center text-2xl mt-10">
           OUR EXHIBITING SPONSORS
         </h1>
       </div>
 
-      {/* <div className=" mt-10">
-        <Swiper
-          slidesPerView={4} // Adjust as needed for responsiveness
-          spaceBetween={20} // Ensures spacing between images
-          loop={true}
-          freeMode={true} // Allows continuous scrolling
-          speed={5000} // Controls smooth scrolling speed
-          autoplay={{
-            // delay: 1000, // No delay to keep it moving
-            disableOnInteraction: false, // Keeps autoplay running even after interaction
-          }}
-          modules={[Autoplay, Pagination]}
-          className="mySwiper"
-        >
-          {[
-            { src: "/pic2.png", width: "200px", height: "150px" },
-            { src: "/pic3.jpeg", width: "200px", height: "150px" },
-            { src: "/pic6.jpeg", width: "200px", height: "150px" },
-            { src: "/pic7.jpeg", width: "150px", height: "150px" },
-            { src: "/pic8.png", width: "150px", height: "150px" },
-            { src: "/pic9.jpg", width: "150px", height: "150px" },
-            { src: "/pic10.png", width: "200px", height: "150px" },
-            { src: "/pic11.jpeg", width: "150px", height: "150px" },
-            { src: "/pic12.jpeg", width: "200px", height: "150px" },
-            { src: "/pic13.png", width: "150px", height: "150px" },
-            { src: "/pic14.jpeg", width: "150px", height: "150px" },
-            { src: "/pic15.jpeg", width: "150px", height: "150px" },
-            { src: "/pic16.jpeg", width: "150px", height: "150px" },
-            { src: "/pic17.jpeg", width: "200px", height: "150px" },
-            { src: "/pic19.jpeg", width: "150px", height: "150px" },
-            { src: "/pic20.jpeg", width: "180px", height: "150px" },
-            { src: "/pic21.png", width: "350px", height: "150px" },
-            { src: "/pic22.jpeg", width: "150px", height: "150px" },
-            { src: "/Zenith-Logo.png", width: "350px", height: "150px" },
-            { src: "/pic18.png", width: "400px", height: "150px" },
-          ].map(({ src, width, height }, index) => (
-            <SwiperSlide key={index} className="flex justify-center">
-              <div
-                className="flex items-center justify-center"
-                style={{ width, height }}
-              >
-                <img
-                  src={src}
-                  className=" object-cover rounded-lg"
-                  style={{ width, height }}
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div> */}
+
       <div className="max-10 mt-10">
         <Swiper
           slidesPerView={5} // Default for mobile
