@@ -376,7 +376,7 @@ function Events() {
                   className="w-full h-auto rounded-lg object-cover pt-10"
                 />
               </div>
-              <div className="w-full md:w-3/5 text-sm md:text-md space-y-4">
+              <div className="w-full md:w-3/5 text-sm mt-6 md:text-md space-y-4">
                 <h1 className="text-lg md:text-2xl font-bold">{person.name}</h1>
                 <h1 className="text-justify">{person.description}</h1>
                 <h1 className="text-justify">{person.description1}</h1>

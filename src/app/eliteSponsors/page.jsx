@@ -307,18 +307,18 @@ function EliteSponsors() {
           },
         ].map((sponsor, index) => (
           <div key={index}>
-            <div className="flex mx-40 flex-col md:flex-row items-center text-black text-center md:text-left space-y-6 md:space-y-0 md:space-x-6">
+            <div className="flex mx-40 flex-col md:flex-row items-start text-black text-center md:text-left space-y-6 md:space-y-0 md:space-x-6">
               {/* Image Container */}
-              <div className="w-3/4 md:w-1/6 flex justify-center">
+              <div className="w-3/4 flex justify-center">
                 <img
                   src={sponsor.img}
                   alt={sponsor.title}
-                  className="w-full max-w-[150px] md:max-w-none h-auto object-contain"
+                  className="w-96 h-full object-contain"
                 />
               </div>
 
               {/* Text Content */}
-              <div className="w-full md:w-2/3 flex flex-col items-center md:items-start">
+              <div className="w-full flex flex-col items-center md:items-start">
                 <h1 className="text-xl md:text-2xl font-bold">
                   {sponsor.title}
                 </h1>

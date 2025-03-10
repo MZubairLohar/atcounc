@@ -83,11 +83,11 @@ export default function Home() {
           </ul>
         </div>
       </div> */} 
-      <div className="bg-[#C1C1C1] h-auto md:h-[244px] flex flex-row items-center justify-between px-8 md:px-20 lg:px-20 py-6 relative">
+      <div className="bg-[#C1C1C1] h-auto md:h-[210px] flex flex-row items-center justify-between px-8 md:px-20 lg:px-32 py-6 relative">
       {/* Logo */}
       <div className="mb-4 md:mb-0">
         <img
-          className="w-24 h-28 md:w-36 md:h-44"
+          className="w-24 h-28 md:w-28 md:h-44"
           src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
           alt="Logo"
         />
@@ -103,7 +103,7 @@ export default function Home() {
 
       {/* Navigation Menu */}
       <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
-        <ul className="menu text-black flex flex-col md:flex-row items-center text-lg">
+        <ul className="menu text-black flex flex-col md:flex-row items-center text-sm">
           <li onClick={Home} className="hover:text-red-500 text-red-500">
             <a>Home</a>
           </li>
@@ -132,29 +132,29 @@ export default function Home() {
       </div>
     </div>
       
-      <div className="relative  h-[530px]  w-full">
+      <div className="relative  h-[400px]  w-full">
         <div className="">
           <img
             src="/image-pic6.png"
             alt="Background"
-            className="w-full h-[550px] -z-0 object-cover "
+            className="w-full h-[370px] -z-0 object-cover "
           />
         </div>
         {/* bg-[#02053d] bg-opacity-40 */}
-        <div className="absolute z-10 top-0 left-0 w-full h-[370px] flex flex-col pt-24 pb-16 bg-opacity-50 text-white text-lg font-semibold space-y-8">
-          <p className="text-3xl sm:text-3xl md:text-6xl relative ml-6 md:ml-20 font-bold">
+        <div className="absolute z-10 top-0 left-0 w-full h-[370px] flex flex-col pt-14 pb-16 bg-opacity-50 text-white text-lg font-semibold space-y-4">
+          <p className="text-3xl sm:text-3xl md:text-5xl relative ml-6 md:ml-32 font-bold">
             NYC Anti-Terrorism Symposium Conference
           </p>
-          <p className="text-lg sm:text-xl md:text-4xl text-start ml-6 md:ml-20 font-normal">
+          <p className="text-lg sm:text-xl md:text-3xl text-start ml-6 md:ml-32 font-normal">
             New York Downtown Marriott <br />
-            <span className="text-sm sm:text-lg md:text-2xl font-normal md:text-start   ">
+            <span className="text-sm sm:text-lg md:text-xl font-normal md:text-start   ">
               New York, NY 10006
             </span>
           </p>
-          <p className="text-lg sm:text-xl md:text-4xl text-start ml-6 md:ml-20 font-bold">
+          <p className="text-lg sm:text-xl md:text-3xl text-start ml-6 md:ml-32 font-bold">
             April 10-11, 2025
           </p>
-          <p className="text-lg sm:text-xl md:text-4xl  pb-16 text-start mb-6 ml-6 md:ml-20 font-bold">
+          <p className="text-lg sm:text-xl md:text-3xl  pb-16 text-start mb-6 ml-6 md:ml-32 font-bold">
             8:00AM-4:00PM
           </p>
         </div>
@@ -162,11 +162,11 @@ export default function Home() {
 
 
       <div className="w-full  px-4">
-        <h1 className="text-black text-center text-lg sm:text-3xl font-medium mt-14">
+        <h1 className="text-black text-center text-lg sm:text-2xl font-medium">
           ELITE SPONSORS
         </h1>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-16 w-full mt-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-16 w-full">
           <img
             src="/pic23.jpeg"
             alt="Logo 1"
@@ -193,15 +193,15 @@ export default function Home() {
       <div className="flex flex-col md:flex-row bg-[#F7F7F7] items-center md:items-start">
         {/* Left Section (Text) */}
         <div className="w-full md:w-4/6 px-4 sm:px-12 md:pl-38 ml-10 mt-10 text-black">
-          <div className="w-full md:w-3/4 mt-12 md:ml-12 sm:mt-16 md:mt-12 space-y-4 md:space-y-16">
-            <h1 className="text-red-500 font-bold text-lg sm:text-2xl ">
+          <div className="w-full md:w-3/4 mt-12 md:ml-12 sm:mt-16 md:mt-24 space-y-4 md:space-y-8">
+            <h1 className="text-red-500 font-bold text-lg sm:text-xl ">
               OUR FOCUS
             </h1>
-            <h1 className="text-2xl sm:text-4xl md:text-6xl md:leading-[120%] font-bold ">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl md:leading-[120%] font-bold ">
               THE SYMPOSIUM <span>MISSION</span>
             </h1>
             {/* text-gray-400 */}
-            <h1 className=" color-[#636262] text-gray-500 text-[16px] font-montserrat sm:text-lg md:text-xl ">
+            <h1 className=" color-[#636262] text-gray-500 text-[16px] font-montserrat sm:text-md md:text-md ">
               The Anti-Terrorism Symposium is designed to provide you with the
               knowledge, skills, tactics, and equipment needed to survive in an
               increasingly uncertain world. Our goal is that you leave with new
@@ -210,7 +210,7 @@ export default function Home() {
             <div className="flex place-self-center md:place-self-center ">
               <button
                 onClick={Aboutus}
-                className="btn btn-error bg-red-500 text-lg sm:text-xl h-16 text-white px-8 py-1 "
+                className="btn btn-error bg-red-500 text-lg sm:text-xl text-white px-4 py-1 "
               >
                 Our Story
               </button>
@@ -236,14 +236,14 @@ export default function Home() {
         </div>
       </div> */}
       <div className="w-full">
-        <h1 className="text-black text-center text-xl sm:text-3xl mt-6 sm:mt-10">
+        <h1 className="text-black text-center text-xl sm:text-2xl mt-6 sm:mt-10">
           OUR PARTNERS
         </h1>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-44 -mt-10 sm:pt-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 -mt-10 sm:pt-20">
           {/* First Image */}
           <img
-            className="w-full max-w-xs sm:max-w-sm md:w-[20%] h-80"
+            className="w-full max-w-xs sm:max-w-sm md:w-[20%] h-60"
             src="/check-pic5.png"
             alt="Partner 1"
           />
@@ -381,12 +381,12 @@ export default function Home() {
         </div>
       </div> */}
       <div className="bg-[#F7F7F7] mt-10 py-10">
-        <h1 className="text-red-500 text-center text-3xl md:text-5xl font-bold">
+        <h1 className="text-red-500 text-center text-3xl md:text-4xl font-bold">
           Meet the NYC ATC Team
         </h1>
 
         <div className="flex justify-center items-center px-4">
-          <h1 className="text-gray-600 text-center w-full md:w-5/6 text-lg md:text-2xl">
+          <h1 className="text-black text-center w-full md:w-5/6 text-lg md:text-lg">
             The Anti-terrorism Council (ATC) and its team brings together
             leaders and decision-makers in the field of law enforcement,
             government, business, healthcare, and the private sector. The ATC is
@@ -416,7 +416,7 @@ export default function Home() {
           ].map(({ name, role, img }, index) => (
             <div
               key={index}
-              className="card card-compact rounded-none w-10/12"
+              className="card card-compact rounded-none w-9/12"
             >
               <figure>
                 <img
@@ -426,10 +426,10 @@ export default function Home() {
                 />
               </figure>
               <div className="card-body text-center">
-                <h2 className="text-lg md:text-2xl font-bold text-black">
+                <h2 className="text-lg md:text-xl font-bold text-black">
                   {name}
                 </h2>
-                <p className="text-md md:text-xl font-bold text-blue-500">
+                <p className="text-md md:text-lg font-bold text-blue-500">
                   {role}
                 </p>
               </div>
@@ -479,82 +479,83 @@ export default function Home() {
           ></iframe>
         </div>
       </div> */}
-      <div className="flex flex-col lg:flex-row justify-center gap-36 text-black pt-10 px-5 lg:mx-12">
+      <div className="flex flex-col lg:flex-row justify-center gap-24 text-black pt-16 px-5 lg:mx-12">
         {/* Contact Info */}
         <div className="space-y-10 md:w-1/2 lg:w-1/3 text-center md:text-left">
-          <h1 className="text-xl font-bold">
+          <h1 className="text-lg font-bold">
             Diane Barton
             <br />
             Symposium Coordinator
           </h1>
-          <h1 className="text-xl font-bold">
+          <h1 className="text-lg font-bold">
             Email:
             <br />
-            <span className="text-lg md:text-xl font-light text-gray-500">
+            <span className="text-lg md:text-lg font-light text-gray-500">
               diane.barton@atcouncil.us
             </span>
           </h1>
         </div>
 
         {/* Get In Touch */}
-        <div className="space-y-10 md:w-1/2 lg:w-1/3 text-center md:text-left">
-          <h1 className="text-2xl md:text-4xl font-bold">Get In Touch</h1>
-          <h1 className="text-xl font-bold">
+        <div className="space-y-6 md:w-1/2 lg:w-1/3 text-center md:text-left">
+          <h1 className="text-xl md:text-2xl font-bold">Get In Touch</h1>
+          <h1 className="text-lg font-bold">
             Assistance Hours
             <br />
-            <span className="text-xl font-light">
+            <span className="text-md font-medium">
               Mon – Sat 9:00am – 8:00pm
               <br /> Sunday – CLOSED
             </span>
           </h1>
-          <h1 className="text-lg md:text-xl font-bold">
+          <h1 className="text-lg font-bold">
             Phone Number:
             <br />
-            <span className="text-lg font-light">(914) 760 - 9853</span>
+            <span className="text-md font-medium">(914) 760 - 9853</span>
           </h1>
         </div>
 
         {/* Google Map */}
-        <div className="w-full lg:w-4/5 h-[400px] flex justify-center items-center">
-          <iframe
-            className="w-full md:w-4/5 h-full border-0"
-            src="https://www.google.com/maps/place/Melbourne+VIC,+Australia/@-37.9696426,144.3936691,9z/data=!3m1!4b1!4m6!3m5!1s0x6ad646b5d2ba4df7:0x4045675218ccd90!8m2!3d-37.8136276!4d144.9630576!16zL20vMGNoZ3pt?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+        <div className="w-full lg:w-4/5 h-[250px] flex justify-center items-center">
+  <iframe
+    className="w-full md:w-4/5 h-full border-0"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.882935544574!2d-74.0149026!3d40.7106444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1984b7d68d%3A0x9f4e89bb11022b5f!2sNew%20York%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1710100000000"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
       </div>
 
       {/* First Section */}
-      <div className="bg-[#767676] md:h-36 flex flex-wrap justify-center items-center text-center mt-10 gap-10 lg:gap-44 ">
-        <div className="text-2xl font-bold">
+      <div className="bg-[#767676] md:h-28 flex flex-wrap justify-center items-center text-center mt-10 gap-10 lg:gap-44 ">
+        <div className="text-lg font-bold">
           Office:
           <br />
-          <span className="text-xl font-light">
+          <span className="text-lg font-light">
             New York, NY - Undisclosed Location
           </span>
         </div>
-        <div className="text-2xl font-bold">
+        <div className="text-lg font-bold">
           Call:
           <br />
-          <span className="text-xl font-light">(914) 760 - 9853</span>
+          <span className="text-lg font-light">(914) 760 - 9853</span>
         </div>
-        <div className="text-2xl font-bold">
+        <div className="text-lg font-bold">
           Email:
           <br />
-          <span className="text-xl font-light">diane.barton@atcouncil.us</span>
+          <span className="text-lg font-light">diane.barton@atcouncil.us</span>
         </div>
       </div>
 
       {/* Second Section */}
-      <div className="flex flex-col justify-center items-center h-80 bg-[#E93D3D] px-5">
+      <div className="flex flex-col justify-center items-center h-60 bg-[#E93D3D] px-5">
         <img
-          className="h-52 w-36"
+          className="h-36 w-24"
           src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
           alt="ATC Logo"
         />
-        <h1 className="mt-4 text-xl font-bold text-center">
+        <h1 className="mt-4 text-lg font-medium text-center">
           Copyright 2024. All rights reserved
         </h1>
       </div>

@@ -169,7 +169,7 @@ function Events() {
           EVENTS
         </h1>
 
-        <div className="flex flex-col items-center w-full md:w-11/12 space-y-10">
+        <div className="flex flex-col w-full md:w-11/12 pl-14 space-y-10">
           <hr className="border-black w-full md:w-11/12" />
 
           {/* First Event */}
@@ -181,8 +181,8 @@ function Events() {
             </div>
 
             {/* Event Details */}
-            <div className="w-full md:w-2/3 text-xl md:text-2xl text-center md:text-left">
-              <h1 className="text-xl md:text-2xl font-bold">
+            <div className="w-full md:w-2/3 text-lg md:text-xl text-center md:text-left">
+              <h1 className="text-lg md:text-xl font-bold">
                 ATC Focus Dinner
               </h1>
               <h1>Benjamin Prime Steakhouse</h1>
@@ -190,7 +190,7 @@ function Events() {
                 23 E 40th St., Between Park and Madison Avenue, New York City,
                 NY 10016
               </h1>
-              <button className="btn btn-error bg-red-500 text-lg md:text-xl text-white px-4 md:px-6 py-2 mt-4">
+              <button className="btn btn-error bg-red-500 text-lg md:text-xl text-white px-4 md:px-4 py-2 mt-4">
                 LEARN MORE
               </button>
             </div>
@@ -207,8 +207,8 @@ function Events() {
             </div>
 
             {/* Event Details */}
-            <div className="w-full md:w-2/3 text-xl md:text-2xl text-center md:text-left">
-              <h1 className="text-xl md:text-2xl font-bold">
+            <div className="w-full md:w-2/3 text-lg md:text-xl text-center md:text-left">
+              <h1 className="text-lg md:text-xl font-bold">
                 Annual NYC Anti-Terrorism Symposium
               </h1>
               <h1>New York Downtown Marriott</h1>
