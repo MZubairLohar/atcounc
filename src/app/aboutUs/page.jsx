@@ -1,8 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 function Events() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+
   function Home() {
     router.push("../../");
   }
@@ -29,78 +32,7 @@ function Events() {
   }
   return (
     <>
-      {/* <div className="navbar bg-[#C1C1C1] h-[232px] flex items-center justify-between px-10">
-        <div className="flex-1 pl-10">
-          <img
-            className="w-32 h-48"
-            src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
-          />
-        </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal text-black px-1">
-            <li onClick={Home} className="hover:text-red-500">
-              <a>Home</a>
-            </li>
-            <li onClick={Events} className="hover:text-red-500">
-              <a>Events</a>
-            </li>
-            <li onClick={Speaker} className="hover:text-red-500">
-              <a>Speaker Roster</a>
-            </li>
-            <li onClick={Elite} className="hover:text-red-500">
-              <a>Elite Sponsors</a>
-            </li>
-            <li onClick={Sponsors} className="hover:text-red-500">
-              <a>Exhibiting Sponsors</a>
-            </li>
-            <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
-              <a>About Us</a>
-            </li>
-            <li onClick={Partners} className="hover:text-red-500">
-              <a>Partners</a>
-            </li>
-            <li onClick={Gallery} className="hover:text-red-500">
-              <a>Gallery</a>
-            </li>
-          </ul>
-        </div>
-      </div> */}
-      {/* <div className=" bg-[#C1C1C1] h-[204px] flex items-center justify-between px-48">
-        <div className="">
-          <img
-            className="w-30 h-44  text-2xl"
-            src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
-          />
-        </div>
-        <div className="flex items-center">
-          <ul className="menu menu-horizontal text-black  flex items-center">
-            <li onClick={Home} className="hover:text-red-500">
-              <a>Home</a>
-            </li>
-            <li onClick={Events} className="hover:text-red-500">
-              <a>Events</a>
-            </li>
-            <li onClick={Speaker} className="hover:text-red-500">
-              <a>Speaker Roster</a>
-            </li>
-            <li onClick={Elite} className="hover:text-red-500">
-              <a>Elite Sponsors</a>
-            </li>
-            <li onClick={Sponsors} className="hover:text-red-500">
-              <a>Exhibiting Sponsors</a>
-            </li>
-            <li onClick={Aboutus} className="hover:text-red-500   text-red-500">
-              <a>About Us</a>
-            </li>
-            <li onClick={Partners} className="hover:text-red-500">
-              <a>Partners</a>
-            </li>
-            <li onClick={Gallery} className="hover:text-red-500">
-              <a>Gallery</a>
-            </li>
-          </ul>
-        </div>
-      </div> */}
+    
       <div className="bg-[#C1C1C1] h-auto md:h-[204px] flex flex-col   md:flex-row items-center justify-between px-8 md:px-20 lg:px-52 py-4">
         {/* Logo */}
         <div className="mb-4 md:mb-0">
@@ -112,7 +44,43 @@ function Events() {
         </div>
 
         {/* Navigation Menu */}
-        <div className="w-full md:w-auto">
+        <button
+          className="md:hidden absolute right-8 top-8 text-2xl"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? "✖" : "☰"}
+      </button>
+
+      {/* Navigation Menu */}
+      <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
+        <ul className="menu text-black flex flex-col md:flex-row items-center text-xs">
+          <li onClick={Home} className="hover:text-red-500 ">
+            <a>Home</a>
+          </li>
+          <li onClick={Events} className="hover:text-red-500">
+            <a>Events</a>
+          </li>
+          <li onClick={Speaker} className="hover:text-red-500">
+            <a>Speaker Roster</a>
+          </li>
+          <li onClick={Elite} className="hover:text-red-500">
+            <a>Elite Sponsors</a>
+          </li>
+          <li onClick={Sponsors} className="hover:text-red-500">
+            <a>Exhibiting Sponsors</a>
+          </li>
+          <li onClick={Aboutus} className="hover:text-red-500 text-red-500">
+            <a>About Us</a>
+          </li>
+          <li onClick={Partners} className="hover:text-red-500 ">
+            <a>Partners</a>
+          </li>
+          <li onClick={Gallery} className="hover:text-red-500">
+            <a>Gallery</a>
+          </li>
+        </ul>
+      </div>
+        {/* <div className="w-full md:w-auto">
           <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
             <li onClick={Home} className="hover:text-red-500">
               <a>Home</a>
@@ -139,7 +107,7 @@ function Events() {
               <a>Gallery</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       {/* <h1 className="text-black text-center text-5xl font-bold mt-6">
         ABOUT US
@@ -236,14 +204,14 @@ function Events() {
         </h1>
 
         <div className="mt-5 px-4 sm:px-12 md:px-20 lg:mx-20">
-          <div className="text-[#555555] flex items-center text-base sm:text-md md:text-lg">
+          <div className="text-[#555555] flex items-center text-sm sm:text-md md:text-sm">
             <h1>
               The Anti-Terrorism Council, Inc. is a distinguished 501(c)(3)
               not-for-profit organization, fueled entirely by the dedication of
               our volunteer team.
             </h1>
           </div>
-          <div className="mt-6 text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
+          <div className="mt-6 text-[#555555] flex justify-center items-center text-sm sm:text-md md:text-sm">
             <h1>
               Born from the lessons learned from the September 11, 2001 attacks,
               the imperative for national unity and preparedness against the
@@ -257,7 +225,7 @@ function Events() {
               programs with unparalleled realism and practicality.
             </h1>
           </div>
-          <div className="mt-6 text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
+          <div className="mt-6 text-[#555555] flex justify-center items-center text-sm sm:text-md md:text-sm">
             <h1>
               Participants in ATC programs emerge equipped with the most
               sophisticated tools, technologies, tactics, and insights, fully
@@ -271,7 +239,7 @@ function Events() {
           <h1 className="mt-4 mb-4 text-black text-center text-xl sm:text-2xl md:text-3xl">
             Anti-Terrorism Council
           </h1>
-          <div className="text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
+          <div className="text-[#555555] flex justify-center items-center text-sm sm:text-md md:text-sm">
             <h1>
               We must always be prepared to continue and remember 9/11, reunite
               the men and women who lived through those days and held the city
@@ -295,7 +263,7 @@ function Events() {
             SYMPOSIUM’S HISTORY
           </h1>
 
-          <div className="text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
+          <div className="text-[#555555] flex justify-center items-center text-sm sm:text-md md:text-sm">
             <h1>
               In its 22nd year, the Anti-Terrorism Council (ATC) brings together
               leaders & decision-makers in the field of law enforcement,
@@ -303,7 +271,7 @@ function Events() {
             </h1>
           </div>
 
-          <div className="text-[#555555] mt-4 flex justify-center items-center text-base sm:text-md md:text-lg">
+          <div className="text-[#555555] mt-4 flex justify-center items-center text-sm sm:text-md md:text-sm">
             <h1>
               The 1st Anti-Terrorism Symposium came about after United States
               Secret Service Special Agent Michael Vaiani used his Surefire
@@ -319,22 +287,48 @@ function Events() {
       </div>
 
       <div className="bg-[#767676] md:h-28 flex flex-wrap justify-center items-center text-center mt-10 gap-10 lg:gap-44 ">
-        <div className="text-xl font-bold">
-          Office:
-          <br />
+      <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/location.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Office:
+             {/* </span> */}
+             </div>
           <span className="text-lg font-light">
+           
             New York, NY - Undisclosed Location
           </span>
         </div>
-        <div className="text-xl font-bold">
-          Call:
-          <br />
-          <span className="text-lg font-light">(914) 760 - 9853</span>
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/call.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Call:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+            (914) 760 - 9853
+          </span>
         </div>
-        <div className="text-xl font-bold">
-          Email:
-          <br />
-          <span className="text-lg font-light">diane.barton@atcouncil.us</span>
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Email:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+          diane.barton@atcouncil.us
+          </span>
         </div>
       </div>
 

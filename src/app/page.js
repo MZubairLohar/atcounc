@@ -144,7 +144,7 @@ export default function Home() {
           />
         </div>
         {/* bg-[#02053d] bg-opacity-40 */}
-        <div className="absolute z-10 top-0 left-0 w-full h-[370px] flex flex-col pt-14 pb-16 bg-opacity-50 text-white text-lg font-semibold space-y-4">
+        <div className="absolute z-10 top-0 left-0 w-full h-[370px] flex flex-col pt-14 pb-16 bg-opacity-54 text-white text-lg font-semibold space-y-4">
           <p className="text-3xl sm:text-3xl md:text-5xl relative ml-6 md:ml-32 font-bold">
             NYC Anti-Terrorism Symposium Conference
           </p>
@@ -528,10 +528,12 @@ export default function Home() {
         <div className="w-full lg:w-4/5 h-[250px] flex justify-center items-center">
   <iframe
     className="w-full md:w-4/5 h-full border-0"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.882935544574!2d-74.0149026!3d40.7106444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1984b7d68d%3A0x9f4e89bb11022b5f!2sNew%20York%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1710100000000"
+    // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.882935544574!2d-74.0149026!3d40.7106444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1984b7d68d%3A0x9f4e89bb11022b5f!2sNew%20York%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1710100000000&zoom=15"
+    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24192.01946422821!2d-74.01876538109053!3d40.71796293695586!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1741715409098!5m2!1sen!2sus"
     allowFullScreen
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
+    
   ></iframe>
 </div>
 
@@ -540,21 +542,66 @@ export default function Home() {
       {/* First Section */}
       <div className="bg-[#767676] md:h-28 flex flex-wrap justify-center items-center text-center mt-10 gap-10 lg:gap-44 ">
         <div className="text-lg font-bold">
-          <div><span>Office:</span></div>
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/location.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Office:
+             {/* </span> */}
+             </div>
           <span className="text-lg font-light">
+           
             New York, NY - Undisclosed Location
           </span>
         </div>
         <div className="text-lg font-bold">
-          Call:
-          <br />
-          <span className="text-lg font-light">(914) 760 - 9853</span>
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/call.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Call:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+            (914) 760 - 9853
+          </span>
         </div>
         <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Email:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+          diane.barton@atcouncil.us
+          </span>
+        </div>
+        {/* <div className="flex text-lg font-bold">
+        <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
           Email:
           <br />
           <span className="text-lg font-light">diane.barton@atcouncil.us</span>
+        </div> */}
+        {/* <div className=" flex text-lg font-bold">
+          <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+          Email:
+          <br />
         </div>
+          <span className="text-lg font-light">diane.barton@atcouncil.us</span> */}
       </div>
 
       {/* Second Section */}

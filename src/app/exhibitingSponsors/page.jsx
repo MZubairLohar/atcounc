@@ -1,8 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 function Events() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+
 
   function Home() {
     router.push("../../");
@@ -30,42 +33,7 @@ function Events() {
   }
   return (
     <>
-      {/* <div className=" bg-[#C1C1C1] h-[204px] flex items-center justify-between px-48">
-        <div className="">
-          <img
-            className="w-30 h-44  text-2xl"
-            src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
-          />
-        </div>
-        <div className="flex items-center">
-          <ul className="menu menu-horizontal text-black  flex items-center">
-            <li onClick={Home} className="hover:text-red-500">
-              <a>Home</a>
-            </li>
-            <li onClick={Events} className="hover:text-red-500">
-              <a>Events</a>
-            </li>
-            <li onClick={Speaker} className="hover:text-red-500">
-              <a>Speaker Roster</a>
-            </li>
-            <li onClick={Elite} className="hover:text-red-500">
-              <a>Elite Sponsors</a>
-            </li>
-            <li onClick={Sponsors} className="hover:text-red-500  text-red-500">
-              <a>Exhibiting Sponsors</a>
-            </li>
-            <li onClick={Aboutus} className="hover:text-red-500 ">
-              <a>About Us</a>
-            </li>
-            <li onClick={Partners} className="hover:text-red-500">
-              <a>Partners</a>
-            </li>
-            <li onClick={Gallery} className="hover:text-red-500">
-              <a>Gallery</a>
-            </li>
-          </ul>
-        </div>
-      </div> */}
+     
       <div className="bg-[#C1C1C1] h-auto md:h-[204px] flex flex-col   md:flex-row items-center justify-between px-8 md:px-20 lg:px-52 py-4">
         {/* Logo */}
         <div className="mb-4 md:mb-0">
@@ -77,7 +45,43 @@ function Events() {
         </div>
 
         {/* Navigation Menu */}
-        <div className="w-full md:w-auto">
+        <button
+          className="md:hidden absolute right-8 top-8 text-2xl"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? "✖" : "☰"}
+      </button>
+
+      {/* Navigation Menu */}
+      <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
+        <ul className="menu text-black flex flex-col md:flex-row items-center text-xs">
+          <li onClick={Home} className="hover:text-red-500 ">
+            <a>Home</a>
+          </li>
+          <li onClick={Events} className="hover:text-red-500">
+            <a>Events</a>
+          </li>
+          <li onClick={Speaker} className="hover:text-red-500">
+            <a>Speaker Roster</a>
+          </li>
+          <li onClick={Elite} className="hover:text-red-500">
+            <a>Elite Sponsors</a>
+          </li>
+          <li onClick={Sponsors} className="hover:text-red-500 text-red-500">
+            <a>Exhibiting Sponsors</a>
+          </li>
+          <li onClick={Aboutus} className="hover:text-red-500 ">
+            <a>About Us</a>
+          </li>
+          <li onClick={Partners} className="hover:text-red-500 ">
+            <a>Partners</a>
+          </li>
+          <li onClick={Gallery} className="hover:text-red-500">
+            <a>Gallery</a>
+          </li>
+        </ul>
+      </div>
+        {/* <div className="w-full md:w-auto">
           <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
             <li onClick={Home} className="hover:text-red-500">
               <a>Home</a>
@@ -104,7 +108,7 @@ function Events() {
               <a>Gallery</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="mt-14 space-x-20 space-y-4">
@@ -144,32 +148,7 @@ function Events() {
             </p>
           </div>
         </div>
-        {/* <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40 w-60" src="/pic3.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Aimpoint</h1>
-            <h1>
-              Aimpoint is the recognized worldwide leader and originator of the
-              red dot sighting technology. After more than 30 years of working
-              closely with elite military and police forces, experienced hunters
-              and marksmen around the world, Aimpoint red dot sights remain the
-              No. 1 choice for combining speed and accuracy.
-              <a
-                href="https://www.aimpoint.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.aimpoint.com
-              </a>
-            </h1>
-          </div>
-        </div> */}
+
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
@@ -178,7 +157,7 @@ function Events() {
           <div className="w-full md:w-1/6 flex justify-center">
             <img
               className="h-28 w-40 md:h-40 md:w-60 object-contain"
-              src="/pic3.jpeg"
+              src="/pic3.png"
             />
           </div>
 
@@ -202,39 +181,7 @@ function Events() {
             </p>
           </div>
         </div>
-        {/* <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex  items-center justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="w-60 h-40" src="/pic4.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">AXIL HEARING PERFORMANCE</h1>
-            <h1>
-              AXIL operates with a clear vision that innovation is the heart of
-              its business. With the fast-paced level of product and technology
-              expansion, AXIL has lead the way in providing the very best
-              product designs and advancements to the sporting goods industry.
-              AXIL has and always will deliver the finest performing hearing
-              enhancement and protection devices available. From ultra
-              comfortable fitting processes, to stereo quality sound
-              performance, to reliable & durable engineering – AXIL continues to
-              redefine the premium products in the market.
-              <a
-                href="https://goaxil.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                goaxil.com
-              </a>
-            </h1>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div> */}
+        
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
@@ -243,7 +190,7 @@ function Events() {
           <div className="w-full md:w-1/6 flex justify-center">
             <img
               className="w-40 h-28 md:w-60 md:h-40 object-contain"
-              src="/pic4.jpeg"
+              src="/pic4.png"
             />
           </div>
 
@@ -1189,22 +1136,48 @@ function Events() {
       </div>
 
       <div className="bg-[#767676] md:h-28 flex flex-wrap justify-center items-center text-center mt-10 gap-10 lg:gap-44 ">
-        <div className="text-xl font-bold">
-          Office:
-          <br />
+      <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/location.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Office:
+             {/* </span> */}
+             </div>
           <span className="text-lg font-light">
+           
             New York, NY - Undisclosed Location
           </span>
         </div>
-        <div className="text-xl font-bold">
-          Call:
-          <br />
-          <span className="text-lg font-light">(914) 760 - 9853</span>
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/call.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Call:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+            (914) 760 - 9853
+          </span>
         </div>
-        <div className="text-xl font-bold">
-          Email:
-          <br />
-          <span className="text-lg font-light">diane.barton@atcouncil.us</span>
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Email:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+          diane.barton@atcouncil.us
+          </span>
         </div>
       </div>
 

@@ -1,8 +1,12 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+
 
 function Events() {
   const router = useRouter();
+const [isOpen, setIsOpen] = useState(false);
+
   function Home() {
     router.push("../../");
   }
@@ -93,7 +97,43 @@ function Events() {
         </div>
 
         {/* Navigation Menu */}
-        <div className="w-full md:w-auto">
+        <button
+            className="md:hidden absolute right-8 top-8 text-2xl"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? "✖" : "☰"}
+        </button>
+
+      {/* Navigation Menu */}
+      <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
+        <ul className="menu text-black flex flex-col md:flex-row items-center text-xs">
+          <li onClick={Home} className="hover:text-red-500 ">
+            <a>Home</a>
+          </li>
+          <li onClick={Events} className="hover:text-red-500">
+            <a>Events</a>
+          </li>
+          <li onClick={Speaker} className="hover:text-red-500 text-red-500">
+            <a>Speaker Roster</a>
+          </li>
+          <li onClick={Elite} className="hover:text-red-500 ">
+            <a>Elite Sponsors</a>
+          </li>
+          <li onClick={Sponsors} className="hover:text-red-500 ">
+            <a>Exhibiting Sponsors</a>
+          </li>
+          <li onClick={Aboutus} className="hover:text-red-500 ">
+            <a>About Us</a>
+          </li>
+          <li onClick={Partners} className="hover:text-red-500 ">
+            <a>Partners</a>
+          </li>
+          <li onClick={Gallery} className="hover:text-red-500">
+            <a>Gallery</a>
+          </li>
+        </ul>
+      </div>
+        {/* <div className="w-full md:w-auto">
           <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
             <li onClick={Home} className="hover:text-red-500">
               <a>Home</a>
@@ -120,7 +160,7 @@ function Events() {
               <a>Gallery</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       {/* <div className="mt-14 space-x-10 space-y-10">
         <h1 className="text-black text-center text-6xl font-bold">
@@ -351,7 +391,7 @@ function Events() {
           },
           {
             name: "Ben Pappas - Marine LtCol retired (Force Recon & MARSOC)",
-            img: "https://atcouncil.us/static/media/SR1.f2e68e6ee178cb129084.jpeg",
+            img: "/ben pa.jpeg",
             description: `Ben Pappas is the CEO and Founder of Ben Pappas Leadership and Life Coaching. He has over 25 years of leadership experience in some of the most demanding positions and environments on earth. Ben has led, mentored, and coached thousands of people, including highly successful business founders, and C-suite executives in Fortune 500 companies, from across the US and world.`,
             description1: `Ben’s leadership experience spans commanding precision raids in direct combat, promoting foreign relations in Europe and Asia, coaching people to achieve personal and business success, teaching graduate-level leadership courses, and even leadership on the football field. His expertise includes leading organizational change, and helping people make breakthroughs to achieve peak performance, intervention, negotiation, communication, change management, building teams, and improving decision-making skills. He is a former Marine special operations leader who can assess, develop, and create strategies to achieve individual, and organizational goals.`,
             description2: `Ben commanded the elite 2nd Marine Raider Battalion, one of only three Special Operations Forces battalions in the Marine Corps. He also served as a platoon commander with 1st Force Recon and designed and built the Recon Training Company, which included the Basic Recon Course and Scout Sniper School.`,
@@ -408,25 +448,47 @@ function Events() {
         </div>
       </div> */}
       <div className="flex flex-col md:flex-row justify-center bg-[#767676] h-auto md:h-28 items-center mt-8 text-center gap-6 md:gap-40 p-6">
-        <div className="text-lg md:text-xl font-bold">
-          Office:
-          <br />
-          <span className="text-base md:text-lg font-light">
+      <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/location.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Office:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+           
             New York, NY - Undisclosed Location
           </span>
         </div>
-        <div className="text-lg md:text-xl font-bold">
-          Call:
-          <br />
-          <span className="text-base md:text-lg font-light">
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/call.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Call:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
             (914) 760 - 9853
           </span>
         </div>
-        <div className="text-lg md:text-xl font-bold">
-          Email:
-          <br />
-          <span className="text-base md:text-lg font-light">
-            diane.barton@atcouncil.us
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Email:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+          diane.barton@atcouncil.us
           </span>
         </div>
       </div>

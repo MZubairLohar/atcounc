@@ -1,8 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 function Events() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+
   function Home() {
     router.push("../../");
   }
@@ -93,7 +96,43 @@ function Events() {
         </div>
 
         {/* Navigation Menu */}
-        <div className="w-full md:w-auto">
+        <button
+        className="md:hidden absolute right-8 top-8 text-2xl"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {isOpen ? "✖" : "☰"}
+      </button>
+
+      {/* Navigation Menu */}
+      <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
+        <ul className="menu text-black flex flex-col md:flex-row items-center text-xs">
+          <li onClick={Home} className="hover:text-red-500 ">
+            <a>Home</a>
+          </li>
+          <li onClick={Events} className="hover:text-red-500">
+            <a>Events</a>
+          </li>
+          <li onClick={Speaker} className="hover:text-red-500">
+            <a>Speaker Roster</a>
+          </li>
+          <li onClick={Elite} className="hover:text-red-500">
+            <a>Elite Sponsors</a>
+          </li>
+          <li onClick={Sponsors} className="hover:text-red-500">
+            <a>Exhibiting Sponsors</a>
+          </li>
+          <li onClick={Aboutus} className="hover:text-red-500">
+            <a>About Us</a>
+          </li>
+          <li onClick={Partners} className="hover:text-red-500 text-red-500">
+            <a>Partners</a>
+          </li>
+          <li onClick={Gallery} className="hover:text-red-500">
+            <a>Gallery</a>
+          </li>
+        </ul>
+      </div>
+        {/* <div className="w-full md:w-auto">
           <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
             <li onClick={Home} className="hover:text-red-500">
               <a>Home</a>
@@ -120,7 +159,7 @@ function Events() {
               <a>Gallery</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="mt-14 space-y-10">
         <h1 className="text-black text-center text-3xl md:text-4xl lg:text-5xl font-bold">
@@ -140,7 +179,7 @@ function Events() {
           </div>
           <div className="w-full md:w-2/4 text-md text-center md:text-left">
             <h1 className="text-xl font-bold">TUNNELS TO TOWERS</h1>
-            <p>
+            <p className="text-sm">
               The Tunnel to Towers Foundation honors the sacrifice of
               firefighter Stephen Siller who laid down his life to save others
               on September 11, 2001. They also honor our military and first
@@ -166,7 +205,7 @@ function Events() {
           </div>
           <div className="w-full md:w-2/4 text-md text-center md:text-left">
             <h1 className="text-xl font-bold">THE LEGACY ALLIANCE</h1>
-            <p>
+            <p className="text-sm">
               At The Legacy Alliance, we appreciate that true satisfaction lies
               not only in personal accomplishments but also in the positive
               influence we exert on others. Our mastermind tribe provides a
@@ -181,25 +220,47 @@ function Events() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-center bg-[#767676] h-auto md:h-28 items-center mt-8 text-center gap-6 md:gap-40 p-6">
-        <div className="text-lg md:text-xl font-bold">
-          Office:
-          <br />
-          <span className="text-base md:text-lg font-light">
+      <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/location.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Office:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+           
             New York, NY - Undisclosed Location
           </span>
         </div>
-        <div className="text-lg md:text-xl font-bold">
-          Call:
-          <br />
-          <span className="text-base md:text-lg font-light">
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/call.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Call:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
             (914) 760 - 9853
           </span>
         </div>
-        <div className="text-lg md:text-xl font-bold">
-          Email:
-          <br />
-          <span className="text-base md:text-lg font-light">
-            diane.barton@atcouncil.us
+        <div className="text-lg font-bold">
+          <div className="flex ">
+            {/* <span className="flex "> */}
+          <img 
+            src="/mail.png"
+            className="w-[20px] h-[20px] mt-1"
+            />
+             Email:
+             {/* </span> */}
+             </div>
+          <span className="text-lg font-light">
+          diane.barton@atcouncil.us
           </span>
         </div>
       </div>
