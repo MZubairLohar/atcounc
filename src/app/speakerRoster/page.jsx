@@ -309,17 +309,17 @@ function Events() {
               <div className="w-2/3 md:w-1/6 text-2xl font-bold">
                 <img
                   src={speaker.img}
-                  className="w-full h-auto rounded-lg object-cover"
+                  className="w-full h-auto object-cover"
                   alt={speaker.name}
                 />
               </div>
               <div className="w-full md:w-3/5 text-sm md:text-md space-y-4 md:space-y-6 text-center md:text-left">
-                <h1 className="text-lg md:text-2xl font-bold">
+                <h1 className="text-lg md:text-xl font-bold">
                   {speaker.name}
                 </h1>
-                <h1 className="text-sm md:text-base">{speaker.description}</h1>
-                <h1 className="text-sm md:text-base">{speaker.description1}</h1>
-                <h1 className="text-sm md:text-base">{speaker.description2}</h1>
+                <h1 className="text-sm md:text-md">{speaker.description}</h1>
+                <h1 className="text-sm md:text-md">{speaker.description1}</h1>
+                <h1 className="text-sm md:text-md">{speaker.description2}</h1>
               </div>
             </div>
             <div className="flex justify-center mt-6">
@@ -377,7 +377,7 @@ function Events() {
                 />
               </div>
               <div className="w-full md:w-3/5 text-sm mt-6 md:text-md space-y-4">
-                <h1 className="text-lg md:text-2xl font-bold">{person.name}</h1>
+                <h1 className="text-lg md:text-xl font-bold">{person.name}</h1>
                 <h1 className="text-justify">{person.description}</h1>
                 <h1 className="text-justify">{person.description1}</h1>
                 <h1 className="text-justify">{person.description2}</h1>

@@ -244,7 +244,7 @@ function EliteSponsors() {
           </div>
         </div>
       </div> */}
-      <div className="mt-14 space-y-10 mx-40">
+      <div className="mt-14 space-y-10">
         <h1 className="text-black text-center text-4xl md:text-5xl font-bold">
           ELITE SPONSORS
         </h1>
@@ -253,7 +253,7 @@ function EliteSponsors() {
           <hr className="border-black w-full md:w-11/12" />
         </div>
 
-        {/* Sponsor Sections */}
+        
         {[
           {
             img: "/pic23.jpeg",
@@ -307,9 +307,9 @@ function EliteSponsors() {
           },
         ].map((sponsor, index) => (
           <div key={index}>
-            <div className="flex mx-40 flex-col md:flex-row items-start text-black text-center md:text-left space-y-6 md:space-y-0 md:space-x-6">
+            <div className="flex flex-col md:flex-row items-center text-black text-center md:text-left space-y-6 md:space-y-0">
               {/* Image Container */}
-              <div className="w-3/4 flex justify-center">
+              <div className="w-2/4 flex justify-center">
                 <img
                   src={sponsor.img}
                   alt={sponsor.title}
@@ -318,7 +318,7 @@ function EliteSponsors() {
               </div>
 
               {/* Text Content */}
-              <div className="w-full flex flex-col items-center md:items-start">
+              <div className="w-full flex flex-col justify-start items-center md:items-start">
                 <h1 className="text-xl md:text-2xl font-bold">
                   {sponsor.title}
                 </h1>

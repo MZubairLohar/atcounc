@@ -1,15 +1,18 @@
 "use client";
 import Navbar from "./navbar";
 import { useRouter } from "next/navigation";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay,Pagination } from 'swiper/modules';
+import { IoLocationSharp } from "react-icons/io5";
+import { MdOutlineWhatsapp } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import {
   EffectFlip,
-  Pagination,
   Navigation,
-  Autoplay,
   Mousewheel,
-  Keyboard,
-} from "swiper/modules";
+  Keyboard
+  // Autoplay, Pagination
+} from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
@@ -103,7 +106,7 @@ export default function Home() {
 
       {/* Navigation Menu */}
       <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
-        <ul className="menu text-black flex flex-col md:flex-row items-center text-sm">
+        <ul className="menu text-black flex flex-col md:flex-row items-center text-xs">
           <li onClick={Home} className="hover:text-red-500 text-red-500">
             <a>Home</a>
           </li>
@@ -161,10 +164,13 @@ export default function Home() {
       </div>
 
 
-      <div className="w-full  px-4">
+      <div className="w-full -space-y-10">
+        <div>
         <h1 className="text-black text-center text-lg sm:text-2xl font-medium">
           ELITE SPONSORS
         </h1>
+        </div>
+       
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-16 w-full">
           <img
@@ -266,64 +272,67 @@ export default function Home() {
         </h1>
       </div>
 
-
       <div className="max-10 mt-10">
-        <Swiper
-          slidesPerView={5} // Default for mobile
-          breakpoints={{
-            640: { slidesPerView: 2, spaceBetween: 10 }, // Tablet view
-            768: { slidesPerView: 3, spaceBetween: 15 }, // Medium screens
-            1024: { slidesPerView: 4, spaceBetween: 20 }, // Desktop
-          }}
-          loop={true}
-          freeMode={true}
-          // speed={1000}
-          autoplay={{
-            // delay: 1000, // No delay to keep it moving
-            disableOnInteraction: false, // Keeps autoplay running even after interaction
-          }}
-          modules={[Autoplay, Pagination]}
-          className="mySwiper"
-        >
-          {[
-            { src: "/pic2.png", width: "300px", height: "300px" },
-            { src: "/pic3.jpeg", width: "250px", height: "250px" },
-            { src: "/pic6.jpeg", width: "250px", height: "250px" },
-            { src: "/pic7.jpeg", width: "250px", height: "250px" },
-            { src: "/pic8.png", width: "150px", height: "150px" },
-            { src: "/pic9.jpg", width: "150px", height: "150px" },
-            { src: "/pic10.png", width: "200px", height: "150px" },
-            { src: "/pic11.jpeg", width: "300px", height: "300px" },
-            { src: "/pic12.jpeg", width: "300px", height: "300px" },
-            { src: "/pic13.png", width: "250px", height: "250px" },
-            { src: "/pic14.jpeg", width: "250px", height: "250px" },
-            { src: "/pic15.jpeg", width: "250px", height: "250px" },
-            { src: "/pic16.jpeg", width: "300px", height: "300px" },
-            { src: "/pic17.jpeg", width: "300px", height: "300px" },
-            { src: "/pic19.jpeg", width: "300px", height: "300px" },
-            { src: "/pic20.jpeg", width: "300px", height: "300px" },
-            { src: "/pic21.png", width: "350px", height: "150px" },
-            { src: "/pic22.jpeg", width: "300px", height: "300px" },
-            { src: "/Zenith-Logo.png", width: "350px", height: "150px" },
-            { src: "/pic18.png", width: "400px", height: "150px" },
-          ].map(({ src, width, height }, index) => (
-            <SwiperSlide key={index} className="flex justify-center">
-              <div
-                className="flex items-center justify-center w-full h-auto"
-                style={{
-                  maxWidth: width,
-                  maxHeight: height,
-                }}
-              >
-                <img
-                  src={src}
-                  className="object-contain rounded-lg w-full h-auto"
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+      <Swiper
+        slidesPerView={7} // Default for mobile
+        breakpoints={{
+          640: { slidesPerView: 2, spaceBetween: 0 }, // Tablet view
+          768: { slidesPerView: 3, spaceBetween: 0 }, // Medium screens
+          1024: { slidesPerView: 4, spaceBetween: 0 }, // Desktop
+        }}
+        loop={true} // Make sure the swiper loops infinitely
+        freeMode={true} // Allow free scrolling
+        spaceBetween={0} // No space between slides
+        speed={3000} // Transition speed in milliseconds (adjust as needed)
+        autoplay={{
+          delay: 0, // No delay, so it continuously moves
+          disableOnInteraction: false, // Keeps autoplay running even after interaction
+        }}
+        modules={[Autoplay, Pagination]} // Proper module usage
+        className="mySwiper"
+      >
+        {[
+          { src: "/1.png", width: "200px", height: "200px" },
+          { src: "/2.png", width: "150px", height: "150px" },
+          { src: "/3.png", width: "150px", height: "150px" },
+          { src: "/4.png", width: "150px", height: "150px" },
+          { src: "/5.png", width: "150px", height: "150px" },
+          { src: "/6.png", width: "150px", height: "150px" },
+          { src: "/7.png", width: "150px", height: "150px" },
+          { src: "/8.png", width: "200px", height: "200px" },
+          { src: "/9.png", width: "200px", height: "200px" },
+          { src: "/10.png", width: "150px", height: "150px" },
+          { src: "/11.png", width: "150px", height: "150px" },
+          { src: "/12.png", width: "150px", height: "150px" },
+          { src: "/13.png", width: "200px", height: "200px" },
+          { src: "/14.png", width: "200px", height: "200px" },
+          { src: "/15.png", width: "200px", height: "200px" },
+          { src: "/16.png", width: "200px", height: "200px" },
+          { src: "/17.png", width: "250px", height: "150px" },
+          { src: "/18.jpeg", width: "200px", height: "200px" },
+          { src: "/19.png", width: "250px", height: "150px" },
+          { src: "/20.png", width: "400px", height: "150px" },
+        ].map(({ src, width, height }, index) => (
+          <SwiperSlide key={index} className="flex">
+            <div
+              className="flex items-center justify-center w-full h-auto"
+              style={{
+                maxWidth: width,
+                maxHeight: height,
+              }}
+            >
+              <img
+                src={src}
+                className="rounded-lg w-full h-auto" // Ensure images fill the space properly
+              />
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      
+
+    </div>
+     
 
       {/* <div className="bg-[#F7F7F7] mt-10 h-[750px]">
         <h1 className="text-red-500 text-center pt-10 text-4xl font-bold">
@@ -479,7 +488,7 @@ export default function Home() {
           ></iframe>
         </div>
       </div> */}
-      <div className="flex flex-col lg:flex-row justify-center gap-24 text-black pt-16 px-5 lg:mx-12">
+      <div className="flex flex-col lg:flex-row justify-center gap-12 text-black pt-16 px-14 lg:mx-24">
         {/* Contact Info */}
         <div className="space-y-10 md:w-1/2 lg:w-1/3 text-center md:text-left">
           <h1 className="text-lg font-bold">
@@ -530,8 +539,7 @@ export default function Home() {
       {/* First Section */}
       <div className="bg-[#767676] md:h-28 flex flex-wrap justify-center items-center text-center mt-10 gap-10 lg:gap-44 ">
         <div className="text-lg font-bold">
-          Office:
-          <br />
+          <div><span>Office:</span></div>
           <span className="text-lg font-light">
             New York, NY - Undisclosed Location
           </span>

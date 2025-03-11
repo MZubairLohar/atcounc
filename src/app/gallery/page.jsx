@@ -130,11 +130,11 @@ function Events() {
           See some of our photos from past years' events!
         </h1>
       </div>
-      <div className="flex justify-center gap-10 mt-10">
-        <div className="flex flex-col items-center">
+      <div className="flex justify-center mt-10 -space-x-4">
+        <div className="flex flex-col items-center ">
           <img
             src="https://atcouncil.us/static/media/GalaryFirstRow1.389ff7591dbd676148ec.jpeg"
-            className="max-w-full"
+            className="w-11/12"
             alt="Image 1"
           />
           <p className="text-md text-black mt-2">
@@ -145,7 +145,7 @@ function Events() {
         <div className="flex flex-col items-center">
           <img
             src="https://atcouncil.us/static/media/GalaryFirstRow2.b7c54fae70142ff30c33.jpeg"
-            className="max-w-full"
+            className="w-11/12"
             alt="Image 2"
           />
           <p className="text-md text-black mt-2">
@@ -158,11 +158,11 @@ function Events() {
         <hr className="border-black w-11/12" />
       </div>
 
-      <div className="flex mt-10">
+      <div className="flex mt-10 justify-center space-x-8">
         <div className="flex flex-col items-center">
           <img
             src="https://atcouncil.us/static/media/GalarySecondRow1.95f1de2a9e1beb035319.jpeg"
-            className="w-11/12"
+            className="w-96"
             alt="Image 1"
           />
           <p className="text-md text-black mt-2">
@@ -173,7 +173,7 @@ function Events() {
         <div className="flex flex-col items-center">
           <img
             src="https://atcouncil.us/static/media/GalarySecondRow2.bea6bac1bfea0f73629b.jpeg"
-            className="w-11/12"
+            className="w-96"
             alt="Image 2"
           />
           <p className="text-md text-black mt-2">Cigar Night</p>
@@ -182,7 +182,7 @@ function Events() {
         <div className="flex flex-col items-center">
           <img
             src="https://atcouncil.us/static/media/GalarySecondRow3.5cf1fc8d6a15186b3faa.jpeg"
-            className="w-11/12"
+            className="w-96"
             alt="Image 2"
           />
           <p className="text-md text-black mt-2">

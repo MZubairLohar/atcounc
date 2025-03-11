@@ -112,7 +112,7 @@ function Events() {
           EXHIBITING SPONSORS
         </h1>
         <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
+          <hr className="border-black w-11/12 mx-auto" />
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-5 text-black p-4">
           {/* Image Container */}
@@ -667,7 +667,7 @@ function Events() {
               src="/Mistral.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Mistral
             </h1>
@@ -690,7 +690,7 @@ function Events() {
               src="/pic13.png"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Mustang Survival
             </h1>
@@ -711,7 +711,7 @@ function Events() {
               src="/pic14.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Pelican
             </h1>
@@ -740,7 +740,7 @@ function Events() {
               src="/pic15.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Raven Concealment Systems
             </h1>
@@ -769,7 +769,7 @@ function Events() {
               src="/pic16.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Salomon
             </h1>
@@ -797,7 +797,7 @@ function Events() {
               src="/pic17.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Sig Sauer
             </h1>
@@ -868,7 +868,7 @@ function Events() {
               src="/pic18.png"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Snakestaff System
             </h1>
@@ -889,7 +889,7 @@ function Events() {
               src="/pic22.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               U.S. Elite
             </h1>
@@ -973,7 +973,7 @@ function Events() {
               src="/pic9.jpg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               UNITY Tactical
             </h1>
@@ -1005,7 +1005,7 @@ function Events() {
               src="/pic10.png"
             />
           </div>
-          <div className="w-full md:w-2/3 text-base sm:text-lg md:text-xl flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Vaultek Safe
             </h1>
@@ -1095,7 +1095,7 @@ function Events() {
               src="/pic19.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-sm sm:text-md md:text-lg flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">Vertx</h1>
             <p>
               The Vertx story started when a top federal agency directly
@@ -1133,7 +1133,7 @@ function Events() {
               src="/pic20.jpeg"
             />
           </div>
-          <div className="w-full md:w-2/3 text-sm sm:text-md md:text-lg flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               XS Sights
             </h1>
@@ -1168,7 +1168,7 @@ function Events() {
               src="/Zenith-Logo.png"
             />
           </div>
-          <div className="w-full md:w-2/3 text-sm sm:text-md md:text-lg flex flex-col text-left justify-center">
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
               Zenith Aerotech
             </h1>

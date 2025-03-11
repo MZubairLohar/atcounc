@@ -231,19 +231,19 @@ function Events() {
         <h1 className="text-black text-center text-3xl sm:text-4xl md:text-5xl font-bold mt-6">
           ABOUT US
         </h1>
-        <h1 className="text-black text-center text-2xl sm:text-3xl mt-6">
+        <h1 className="text-black text-center text-2xl sm:text-3xl mt-10">
           OUR STORY
         </h1>
 
-        <div className="mt-5 px-4 sm:px-12 md:px-20 lg:mx-52">
-          <div className="text-[#555555] flex justify-center items-center text-base sm:text-lg md:text-xl">
+        <div className="mt-5 px-4 sm:px-12 md:px-20 lg:mx-20">
+          <div className="text-[#555555] flex items-center text-base sm:text-md md:text-lg">
             <h1>
               The Anti-Terrorism Council, Inc. is a distinguished 501(c)(3)
               not-for-profit organization, fueled entirely by the dedication of
               our volunteer team.
             </h1>
           </div>
-          <div className="mt-6 text-[#555555] flex justify-center items-center text-base sm:text-lg md:text-xl">
+          <div className="mt-6 text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
             <h1>
               Born from the lessons learned from the September 11, 2001 attacks,
               the imperative for national unity and preparedness against the
@@ -257,7 +257,7 @@ function Events() {
               programs with unparalleled realism and practicality.
             </h1>
           </div>
-          <div className="mt-6 text-[#555555] flex justify-center items-center text-base sm:text-lg md:text-xl">
+          <div className="mt-6 text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
             <h1>
               Participants in ATC programs emerge equipped with the most
               sophisticated tools, technologies, tactics, and insights, fully
@@ -268,10 +268,10 @@ function Events() {
             </h1>
           </div>
 
-          <h1 className="mt-4 mb-4 text-black text-center text-2xl sm:text-3xl md:text-4xl">
+          <h1 className="mt-4 mb-4 text-black text-center text-xl sm:text-2xl md:text-3xl">
             Anti-Terrorism Council
           </h1>
-          <div className="text-[#555555] flex justify-center items-center text-base sm:text-lg md:text-xl">
+          <div className="text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
             <h1>
               We must always be prepared to continue and remember 9/11, reunite
               the men and women who lived through those days and held the city
@@ -295,7 +295,7 @@ function Events() {
             SYMPOSIUM’S HISTORY
           </h1>
 
-          <div className="text-[#555555] flex justify-center items-center text-base sm:text-lg md:text-xl">
+          <div className="text-[#555555] flex justify-center items-center text-base sm:text-md md:text-lg">
             <h1>
               In its 22nd year, the Anti-Terrorism Council (ATC) brings together
               leaders & decision-makers in the field of law enforcement,
@@ -303,7 +303,7 @@ function Events() {
             </h1>
           </div>
 
-          <div className="text-[#555555] mt-4 flex justify-center items-center text-base sm:text-lg md:text-xl">
+          <div className="text-[#555555] mt-4 flex justify-center items-center text-base sm:text-md md:text-lg">
             <h1>
               The 1st Anti-Terrorism Symposium came about after United States
               Secret Service Special Agent Michael Vaiani used his Surefire

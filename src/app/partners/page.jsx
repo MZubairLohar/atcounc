@@ -123,23 +123,23 @@ function Events() {
         </div>
       </div>
       <div className="mt-14 space-y-10">
-        <h1 className="text-black text-center text-4xl md:text-5xl lg:text-6xl font-bold">
+        <h1 className="text-black text-center text-3xl md:text-4xl lg:text-5xl font-bold">
           OUR PARTNERS
         </h1>
-        <div className="flex justify-center mx-40">
+        <div className="flex justify-center mx-auto">
           <hr className="border-black w-11/12" />
         </div>
 
         {/* First Partner */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-1 text-black">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-black">
           <div className="w-full md:w-1/6 flex justify-center">
             <img
               className="w-full max-w-xs md:max-w-sm lg:max-w-md"
               src="/check-pic5.png"
             />
           </div>
-          <div className="w-full md:w-2/3 text-md text-center md:text-left">
-            <h1 className="text-2xl font-bold">TUNNELS TO TOWERS</h1>
+          <div className="w-full md:w-2/4 text-md text-center md:text-left">
+            <h1 className="text-xl font-bold">TUNNELS TO TOWERS</h1>
             <p>
               The Tunnel to Towers Foundation honors the sacrifice of
               firefighter Stephen Siller who laid down his life to save others
@@ -157,15 +157,15 @@ function Events() {
         </div>
 
         {/* Second Partner */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-1 text-black mx-40">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-black">
           <div className="w-full md:w-1/6 flex justify-center">
             <img
               className="w-full max-w-xs md:max-w-sm lg:max-w-md"
               src="/The Legacy Alliance.png"
             />
           </div>
-          <div className="w-full md:w-2/3 text-md text-center md:text-center mx-40">
-            <h1 className="text-2xl font-bold">THE LEGACY ALLIANCE</h1>
+          <div className="w-full md:w-2/4 text-md text-center md:text-left">
+            <h1 className="text-xl font-bold">THE LEGACY ALLIANCE</h1>
             <p>
               At The Legacy Alliance, we appreciate that true satisfaction lies
               not only in personal accomplishments but also in the positive
