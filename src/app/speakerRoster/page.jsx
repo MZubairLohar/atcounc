@@ -86,23 +86,23 @@ const [isOpen, setIsOpen] = useState(false);
           </ul>
         </div>
       </div> */}
-      <div className="bg-[#C1C1C1] h-auto md:h-[204px] flex flex-col   md:flex-row items-center justify-between px-8 md:px-20 lg:px-52 py-4">
-        {/* Logo */}
-        <div className="mb-4 md:mb-0">
-          <img
-            className="w-30 h-32 md:w-30 md:h-44"
-            src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
-            alt="Logo"
-          />
-        </div>
+      <div className="bg-[#C1C1C1] h-auto md:h-[210px] flex flex-row items-center justify-between px-8 md:px-20 lg:px-32 py-6 relative">
+      {/* Logo */}
+      <div className="mb-4 md:mb-0">
+        <img
+          className="w-24 h-28 md:w-28 md:h-44"
+          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          alt="Logo"
+        />
+      </div>
 
-        {/* Navigation Menu */}
-        <button
-            className="md:hidden absolute right-8 top-8 text-2xl"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? "✖" : "☰"}
-        </button>
+      {/* Mobile Menu Button */}
+      <button
+        className="md:hidden absolute right-8 top-8 text-2xl"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {isOpen ? "✖" : "☰"}
+      </button>
 
       {/* Navigation Menu */}
       <div className={`w-full md:w-auto ${isOpen ? "block" : "hidden"} md:flex`}>
@@ -125,7 +125,7 @@ const [isOpen, setIsOpen] = useState(false);
           <li onClick={Aboutus} className="hover:text-red-500 ">
             <a>About Us</a>
           </li>
-          <li onClick={Partners} className="hover:text-red-500 ">
+          <li onClick={Partners} className="hover:text-red-500">
             <a>Partners</a>
           </li>
           <li onClick={Gallery} className="hover:text-red-500">
@@ -133,35 +133,7 @@ const [isOpen, setIsOpen] = useState(false);
           </li>
         </ul>
       </div>
-        {/* <div className="w-full md:w-auto">
-          <ul className="menu menu-horizontal text-black flex flex-col md:flex-row items-center   text-sm md:text-thin">
-            <li onClick={Home} className="hover:text-red-500">
-              <a>Home</a>
-            </li>
-            <li onClick={Events} className="hover:text-red-500">
-              <a>Events</a>
-            </li>
-            <li onClick={Speaker} className="hover:text-red-500  text-red-500">
-              <a>Speaker Roster</a>
-            </li>
-            <li onClick={Elite} className="hover:text-red-500">
-              <a>Elite Sponsors</a>
-            </li>
-            <li onClick={Sponsors} className="hover:text-red-500 ">
-              <a>Exhibiting Sponsors</a>
-            </li>
-            <li onClick={Aboutus} className="hover:text-red-500">
-              <a>About Us</a>
-            </li>
-            <li onClick={Partners} className="hover:text-red-500">
-              <a>Partners</a>
-            </li>
-            <li onClick={Gallery} className="hover:text-red-500">
-              <a>Gallery</a>
-            </li>
-          </ul>
-        </div> */}
-      </div>
+    </div>
       {/* <div className="mt-14 space-x-10 space-y-10">
         <h1 className="text-black text-center text-6xl font-bold">
           SPEAKER ROSTER
