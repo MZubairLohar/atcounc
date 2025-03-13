@@ -121,21 +121,21 @@ function EliteSponsors() {
 
         
         {[
-          {
-            img: "/pic23.jpeg",
-            title: "ELEVEN10 GEAR",
-            description: `Eleven 10®, based in Cleveland, Ohio, is a manufacturer of
-              high-quality self-aid/buddy-aid gear that is proudly made in the
-              USA. We were founded by 2 brothers: a former Reconnaissance Marine
-              and current tactical paramedic, the other is a longtime police
-              officer and an active SWAT commander. This gives us the unique
-              insight of MIL/LE Special Operations, trauma medicine, and the
-              street cop. We’ve taken our personal experiences and designed
-              medical carrying equipment based on the lessons learned from the
-              streets of America & the conflicts in the Middle East.
-`,
-            link: "https://1110gear.com/",
-          },
+//           {
+//             img: "/pic23.jpeg",
+//             title: "ELEVEN10 GEAR",
+//             description: `Eleven 10®, based in Cleveland, Ohio, is a manufacturer of
+//               high-quality self-aid/buddy-aid gear that is proudly made in the
+//               USA. We were founded by 2 brothers: a former Reconnaissance Marine
+//               and current tactical paramedic, the other is a longtime police
+//               officer and an active SWAT commander. This gives us the unique
+//               insight of MIL/LE Special Operations, trauma medicine, and the
+//               street cop. We’ve taken our personal experiences and designed
+//               medical carrying equipment based on the lessons learned from the
+//               streets of America & the conflicts in the Middle East.
+// `,
+//             link: "https://1110gear.com/",
+//           },
           {
             img: "/pic24.jpeg",
             title: "Benchmade Knives",
@@ -147,22 +147,22 @@ function EliteSponsors() {
               USA Proud!`,
             link: "https://www.benchmade.com/",
           },
-          {
-            img: "/pic25.png",
-            title: "CIRCLESQUARED",
-            description: `              Founded in 2014, Circle Squared Alternative Investments LLC (CSQ)
-              is a privately held Real Estate Investment firm. Founder Jeff
-              Sica’s vision and belief is that sophisticated investors want and
-              deserve access to alternatives to the public markets. Working with
-              accomplished real estate developers with track records and deep
-              experience while creating strong investment partnerships, CSQ has
-              connected family offices and high net worth individuals with real
-              estate projects that have traditionally only been available to
-              institutional investors. CSQ is dedicated to helping you bridge
-              the gap between your investment goals and your ability to achieve
-              them.`,
-            link: "https://www.circlesquaredalts.com",
-          },
+          // {
+          //   img: "/pic25.png",
+          //   title: "CIRCLESQUARED",
+          //   description: `              Founded in 2014, Circle Squared Alternative Investments LLC (CSQ)
+          //     is a privately held Real Estate Investment firm. Founder Jeff
+          //     Sica’s vision and belief is that sophisticated investors want and
+          //     deserve access to alternatives to the public markets. Working with
+          //     accomplished real estate developers with track records and deep
+          //     experience while creating strong investment partnerships, CSQ has
+          //     connected family offices and high net worth individuals with real
+          //     estate projects that have traditionally only been available to
+          //     institutional investors. CSQ is dedicated to helping you bridge
+          //     the gap between your investment goals and your ability to achieve
+          //     them.`,
+          //   link: "https://www.circlesquaredalts.com",
+          // },
           {
             img: "/pic26.jpeg",
             title: "SHOREHAVEN",

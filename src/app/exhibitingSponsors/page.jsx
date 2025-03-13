@@ -573,6 +573,33 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-black p-4">
+          <div className="w-full md:w-1/6 flex justify-center">
+            <img
+              className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[256px] h-auto"
+              src="/LOWA.png"
+            />
+          </div>
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
+            <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
+              Lowa Boots
+            </h1>
+            <p>
+            With over 100 years of hand-crafted European heritage, LOWA Boots is a globally respected footwear brand located in Jetzendorf, Germany, with US headquarters in Stamford, CT. Since 1923, LOWA has created premium outdoor and tactical foowear featuring best-in-class quality, and proprietary technology. LOWA is one of the only footwear brands to receive ISO 9001 status for the highest quality construction and process standards, and is the first footwear brand with primarily European production to receive a positive Brand Performance rating from the Fair Wear Foundation. LOWA certified tactical boots are made to comply with the European Union’s PPE standards. For more information, visit :  
+            <a
+                href="https://www.lowaboots.com"
+                className="text-blue-500 underline block md:inline mt-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.lowaboots.com
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-auto" />
+        </div>
         {/* Mossberg Section */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-5 text-black p-4">
           {/* Image Section */}
@@ -607,6 +634,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
+        
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-black p-4">
           <div className="w-full md:w-1/6 flex justify-center">
             <img
@@ -709,8 +737,8 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
-        <div className="flex flex-col md:flex-row justify-center gap-6 text-black p-4">
-          <div className="w-full md:w-1/6 flex justify-center">
+        {/*<div className="flex flex-col md:flex-row justify-center gap-6 text-black p-4">
+           <div className="w-full md:w-1/6 flex justify-center">
             <img
               className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[224px] h-auto"
               src="/pic16.jpeg"
@@ -732,11 +760,11 @@ function Events() {
             >
               www.salomon.com
             </a>
-          </div>
-        </div>
-        <div className="flex justify-center">
+          </div> 
+        </div>*/}
+        {/* <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
-        </div>
+        </div> */}
         <div className="flex flex-col md:flex-row justify-center gap-6 text-black p-4">
           <div className="w-full md:w-1/6 flex justify-center">
             <img
