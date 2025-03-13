@@ -505,7 +505,8 @@ export default function Home() {
             </span>
           </h1>
           <div>
-            <form action="https://www.paypal.com/donate" method="post" target="_top">
+          {/* important */}
+            {/* <form action="https://www.paypal.com/donate" method="post" target="_top">
 
               <input type="hidden" name="hosted_button_id" value="T8JTLS493KC2L" />
 
@@ -513,7 +514,14 @@ export default function Home() {
 
               <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 
-            </form>
+            </form> */}
+            <div className="">
+          <img
+            src="/ss.png"
+            alt="Background"
+            className="w-full h-[5%] -z-0 object-cover "
+          />
+        </div>
           </div>
         </div>
 
