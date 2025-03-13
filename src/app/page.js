@@ -504,6 +504,17 @@ export default function Home() {
               diane.barton@atcouncil.us
             </span>
           </h1>
+          <div>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+
+              <input type="hidden" name="hosted_button_id" value="T8JTLS493KC2L" />
+
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+
+            </form>
+          </div>
         </div>
 
         {/* Get In Touch */}
@@ -526,16 +537,16 @@ export default function Home() {
 
         {/* Google Map */}
         <div className="w-full lg:w-4/5 h-[250px] flex justify-center items-center">
-  <iframe
-    className="w-full md:w-4/5 h-full border-0"
-    // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.882935544574!2d-74.0149026!3d40.7106444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1984b7d68d%3A0x9f4e89bb11022b5f!2sNew%20York%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1710100000000&zoom=15"
-    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24192.01946422821!2d-74.01876538109053!3d40.71796293695586!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1741715409098!5m2!1sen!2sus"
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    
-  ></iframe>
-</div>
+          <iframe
+            className="w-full md:w-4/5 h-full border-0"
+            // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.882935544574!2d-74.0149026!3d40.7106444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1984b7d68d%3A0x9f4e89bb11022b5f!2sNew%20York%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1710100000000&zoom=15"
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24192.01946422821!2d-74.01876538109053!3d40.71796293695586!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1741715409098!5m2!1sen!2sus"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            
+          ></iframe>
+        </div>
 
       </div>
 
