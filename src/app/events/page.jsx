@@ -184,15 +184,15 @@ function Events() {
           <hr className="border-black w-full md:w-11/12" />
 
           {/* First Event */}
-          <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4 space-y-6 md:space-y-0">
+          {/* <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4 space-y-6 md:space-y-0"> */}
             {/* Date and Time */}
-            <div className="w-full md:w-1/3 text-xl md:text-2xl font-bold text-center md:text-left">
+            {/* <div className="w-full md:w-1/3 text-xl md:text-2xl font-bold text-center md:text-left">
               <h1>November 12, 2024</h1>
               <h1>6PM</h1>
-            </div>
+            </div> */}
 
             {/* Event Details */}
-            <div className="w-full md:w-2/3 text-lg md:text-xl text-center md:text-left">
+            {/* <div className="w-full md:w-2/3 text-lg md:text-xl text-center md:text-left">
               <h1 className="text-lg md:text-xl font-bold">
                 ATC Focus Dinner
               </h1>
@@ -204,10 +204,10 @@ function Events() {
               <button className="btn btn-error bg-red-500 text-lg md:text-xl text-white px-4 md:px-4 py-2 mt-4">
                 LEARN MORE
               </button>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
 
-          <hr className="border-black w-full md:w-11/12" />
+          {/* <hr className="border-black w-full md:w-11/12" /> */}
 
           {/* Second Event */}
           <div className="flex flex-col md:flex-row items-center text-black w-full md:w-3/4 space-y-6 md:space-y-0">

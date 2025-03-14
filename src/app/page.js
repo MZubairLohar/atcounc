@@ -545,7 +545,7 @@ export default function Home() {
 
         {/* Google Map */}
         <div className="w-full lg:w-4/5 h-[250px] flex justify-center items-center">
-          <iframe
+          {/* <iframe
             className="w-full md:w-4/5 h-full border-0"
             // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.882935544574!2d-74.0149026!3d40.7106444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1984b7d68d%3A0x9f4e89bb11022b5f!2sNew%20York%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1710100000000&zoom=15"
             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24192.01946422821!2d-74.01876538109053!3d40.71796293695586!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1741715409098!5m2!1sen!2sus"
@@ -553,7 +553,18 @@ export default function Home() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             
-          ></iframe>
+          ></iframe> */}
+           <a
+            href="https://www.google.com/maps/place/New+York+Marriott+Downtown/@40.7106444,-74.0149026,17z"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/map.jpg"
+              alt="map"
+              className="object-cover"
+            />
+          </a>
         </div>
 
       </div>
