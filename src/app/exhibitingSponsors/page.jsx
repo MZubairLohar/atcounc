@@ -192,65 +192,7 @@ function Events() {
             </p>
           </div>
         </div>
-        {/* <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-auto" />
-        </div>
-
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="w-60 h-40" src="/pic6.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Blue Line Beer Company</h1>
-            <h1>
-              We are an American company who’s goal it is to support law
-              enforcement while brewing great beer. We hope others will follow
-              us by supporting law and order and authentic American values. So
-              raise your glass and satisfy your tastebuds knowing that a portion
-              of our proceeds go to police charities around the country. The
-              names of our beers speak for themselves so we hope you’ll enjoy a
-              laugh while drinking a phenomenal craft beer.
-              <a
-                href="https://bluelinebeercompany.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                bluelinebeercompany.com
-              </a>
-            </h1>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-32 w-60" src="/pic21.png" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">
-              Black River Defensive Solutions
-            </h1>
-            <h1>
-              The mission at Black River Defensive Solutions is to provide
-              Medical and Firearms Training and Consultation. Providing next
-              level firearms training for responsible gun owners in the
-              fundamentals of marksmanship, NJ Concealed Carry and the
-              responsibility that comes with it, and developing skillsets for
-              every day carry (EDC).
-              <a
-                href="https://blackriverdefensivesolutions.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                blackriverdefensivesolutions.com
-              </a>
-            </h1>
-          </div>
-        </div>
- */}
+        
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
@@ -324,60 +266,7 @@ function Events() {
             </p>
           </div>
         </div>
-        {/* <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center text-black gap-5">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="w-68 h-40" src="/pic7.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Clear Armor</h1>
-            <h1>
-              TruArmor is at the forefront of vehicle innovation security
-              solutions that protects and secures your most valuable assets,
-              your family, friends and property. We use industry leading
-              technology in conjunction with a unique multilayered world
-              patented made in the USA glass system that meets OEM Standards and
-              is DOT Certified.
-              <a
-                href="https://clear-armor.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.clear-armor.com
-              </a>
-            </h1>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40 w-52" src="/pic8.png" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Empire Original Designs</h1>
-            <h1>
-              Empire Original Designs was established in 2014 in Brooklyn, New
-              York by Damian Korman. He is a retired veteran law enforcement
-              officer from the New York City Police Department. Damian took his
-              knowledge of graphic design and his experience in law enforcement
-              and merged the two fields to establish unique and creative
-              products.
-              <a
-                href="https://www.jointheempire.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.jointheempire.com
-              </a>
-            </h1>
-          </div>
-        </div> */}
+        
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
@@ -448,66 +337,7 @@ function Events() {
             </p>
           </div>
         </div>
-        {/* <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40" src="/pic11.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Inforce</h1>
-            <h1>
-              Emissive Energy Corp. is an American manufacturer that designs and
-              produces weapon accessories for defense, law enforcement, homeland
-              security and private citizens marketed under our INFORCE brand. We
-              are an ISO 9001:2008 certified manufacturer of optoelectronic
-              systems that also designs, engineers and manufactures OEM products
-              for a variety of U.S. and international customers. The INFORCE
-              brand of products is distributed worldwide and is currently issued
-              by every branch of the U.S. Military and by Federal, State and
-              local law enforcement agencies.
-              <a
-                href="https://inforcelights.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.inforce-mil.com
-              </a>
-            </h1>
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-40" />
-        </div>
-        <div className="flex justify-center gap-5 text-black">
-          <div className="w-1/6 text-2xl font-bold">
-            <img className="h-40" src="/pic12.jpeg" />
-          </div>
-          <div className="w-2/3 text-md flex flex-col text-left justify-center">
-            <h1 className="text-2xl font-bold">Mossberg</h1>
-            <h1>
-              Since 1919, Mossberg® has been the leader in introducing important
-              design breakthroughs to the firearm industry. Many product
-              features pioneered by Mossberg® are now the standards by which all
-              modern firearms are judged. Never content with the status quo, our
-              men and women constantly strive to improve and update the
-              capabilities of all Mossberg® products. In accomplishing this
-              goal, we recognize that each improvement is a part of the
-              “Shooting System” approach and most are designed to fit the
-              shotgun you bought years ago.
-              <a
-                href="https://www.mossberg.com/"
-                className="text-blue-500 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                www.mossberg.com
-              </a>
-            </h1>
-          </div>
-        </div> */}
+        
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
@@ -709,34 +539,7 @@ function Events() {
         <div className="flex justify-center">
           <hr className="border-black w-11/12 mx-auto" />
         </div>
-        {/*<div className="flex flex-col md:flex-row justify-center gap-6 text-black p-4">
-           <div className="w-full md:w-1/6 flex justify-center">
-            <img
-              className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[224px] h-auto"
-              src="/pic16.jpeg"
-            />
-          </div>
-          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
-            <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
-              Salomon
-            </h1>
-            <p>
-              Salomon has been playing in the French alps since 1947. Our
-              passion for outdoor sports, new technologies and craftsmanship...
-            </p>
-            <a
-              href="https://www.salomon.com/en-int"
-              className="text-blue-500 underline mt-2"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              www.salomon.com
-            </a>
-          </div> 
-        </div>*/}
-        {/* <div className="flex justify-center">
-          <hr className="border-black w-11/12 mx-auto" />
-        </div> */}
+       
         <div className="flex flex-col md:flex-row justify-center gap-6 text-black p-4">
           <div className="w-full md:w-1/6 flex justify-center">
             <img
