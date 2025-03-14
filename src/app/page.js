@@ -173,21 +173,21 @@ export default function Home() {
        
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-16 w-full">
-          <img
+          {/* <img
             src="/pic23.jpeg"
             alt="Logo 1"
             className="w-38 h-28  sm:w-60 sm:h-48 md:w-[19%] md:h-72 object-contain"
-          />
+          /> */}
           <img
             src="/pic24.jpeg"
             alt="Logo 2"
             className="w-38 h-28 sm:w-60 sm:h-48 md:w-[19%] md:h-72 object-contain"
           />
-          <img
+          {/* <img
             src="/pic25.png"
             alt="Logo 3"
             className="w-38 h-28 sm:w-60 sm:h-48 md:w-[19%] md:h-72 object-contain"
-          />
+          /> */}
           <img
             src="/pic26.jpeg"
             alt="Logo 4"
