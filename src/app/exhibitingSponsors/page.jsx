@@ -310,6 +310,36 @@ function Events() {
           <div className="w-full md:w-1/6 flex justify-center">
             <img
               className="w-40 h-28 md:w-52 md:h-40 object-contain"
+              src="/pic23.jpeg"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="w-full md:w-2/3 text-sm md:text-md flex flex-col text-center md:text-left justify-center">
+            <h1 className="text-xl md:text-2xl font-bold">
+            ELEVEN10 GEAR
+            </h1>
+            <p className="leading-relaxed px-2 md:px-0">
+            Eleven 10®, based in Cleveland, Ohio, is a manufacturer of high-quality self-aid/buddy-aid gear that is proudly made in the USA. We were founded by 2 brothers: a former Reconnaissance Marine and current tactical paramedic, the other is a longtime police officer and an active SWAT commander. This gives us the unique insight of MIL/LE Special Operations, trauma medicine, and the street cop. We’ve taken our personal experiences and designed medical carrying equipment based on the lessons learned from the streets of America & the conflicts in the Middle East.
+              <a
+                href="www.1110gear.com"
+                className="text-blue-500 underline block md:inline mt-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.1110gear.com
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <hr className="border-black w-11/12 mx-auto" />
+        </div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 text-black p-4">
+          {/* Image Section */}
+          <div className="w-full md:w-1/6 flex justify-center">
+            <img
+              className="w-40 h-28 md:w-52 md:h-40 object-contain"
               src="/pic8.png"
             />
           </div>
