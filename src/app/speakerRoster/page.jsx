@@ -262,7 +262,7 @@ const [isOpen, setIsOpen] = useState(false);
         {[
           {
             name: "Dr. Maurizio Miglietta - Director",
-            img: "https://atcouncil.us/static/media/SR1.f2e68e6ee178cb129084.jpeg",
+            img: "/ddrma.jpeg",
             description: ` Dr. Miglietta is a Trauma Surgeon and serves as the Founder and
               Director of the MTU. He has served as Chief of the Division of
               Acute Care Surgery and Director of Trauma and Emergency Surgery at
@@ -290,7 +290,7 @@ const [isOpen, setIsOpen] = useState(false);
 
           {
             name: "Michael Vaiani - Founder",
-            img: "https://atcouncil.us/static/media/SR2.a71defaece05456adec8.jpeg",
+            img: "mivi.jpeg",
             description: ` Mike Vaiani is the founder of the NYC Anti-Terrorism Symposium is
               2002. He is a (Ret.) Special Agent, USSS assigned to the New York
               Field Office located at #7 World Trade Center on the morning of
@@ -308,7 +308,7 @@ const [isOpen, setIsOpen] = useState(false);
           },
           {
             name: "Diane Barton - Event Coordinator",
-            img: "https://atcouncil.us/static/media/DianeChange.ac8b473ed6af172afc4b.jpeg",
+            img: "/Dian.jpeg",
             description: `When you think of the MTU NYC Anti Terrorism Symposium, you can’t help but think of Diane. As the Symposium Coordinator since 2007, Diane has handled everything from flights to food to schedules and accommodations. Diane takes the stresses of managing many diverse requests & requirements, let alone dealing with many military and law enforcement divisions, & turns them into interesting, informative and fun events with a family like feel. Initially working with USSS Special Agent Mike Vaiani at Camp Smith in 2001, Diane became interested in learning about the Symposium. Soon, she enthusiastically volunteered to help`,
             description1:
               "Diane currently is Housing and Logistics Billeting Manager at Camp Smith Training Site for DMNA where she is responsible for the management, administration, & technical & professional direction of lodging operations as well as coordinating major activities for lodging projects & soldier training. Her work ensures measurable standards of service performance & accountability to ensure a uniform system that provides cost-effective service to all service members.",

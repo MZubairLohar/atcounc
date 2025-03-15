@@ -411,17 +411,17 @@ export default function Home() {
             {
               name: "Dr. Maurizio Miglietta",
               role: "Director",
-              img: "https://atcouncil.us/static/media/DrMaurizio.f2e68e6ee178cb129084.jpeg",
+              img: "/drma.jpeg",
             },
             {
               name: "Michael Vaiani",
               role: "Founder",
-              img: "https://atcouncil.us/static/media/Michael.a71defaece05456adec8.jpeg",
+              img: "/mivi.jpeg",
             },
             {
               name: "Diane Barton",
               role: "Coordinator",
-              img: "https://atcouncil.us/static/media/DianeChange.ac8b473ed6af172afc4b.jpeg",
+              img: "/Dian.jpeg",
             },
           ].map(({ name, role, img }, index) => (
             <div
