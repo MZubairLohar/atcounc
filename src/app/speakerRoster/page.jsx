@@ -370,7 +370,7 @@ const [isOpen, setIsOpen] = useState(false);
           },
           {
             name: "Michèle Stuart - JAG Investigations, Inc.",
-            img: "https://atcouncil.us/static/media/SR5.2a85d1ab2b85ac029d81.png",
+            img: "/micS.jpeg",
             description: `With over thirty years of investigative experience and twenty-six years of running her own company, Ms. Stuart is an expert in a range of investigative fields, including OSINT, counterintelligence, insurance fraud investigations, financial investigations, threat assessments, due diligence, organized retail crime, corporate and competitive intelligence..`,
             description1: `Ms. Stuart consults and trains a variety of clients, including federal, state, and local law enforcement agencies, military intelligence communities, Fortune 500 companies, as well as financial and insurance industries. Her focus is on open source intelligence, social media, and threat assessments and mitigation. She has also served as an Instructor at Quantico (FBI Academy), teaching international training in OSINT (Open-Source Intelligence).`,
             description2: `In 2017, Ms. Stuart collaborated with the Pennsylvania Office of Homeland Security to create a program called “Keeping Kids Safe.” This program provides training to administrators, principals, teachers, SRO’s, and parents on the dangers of online and social media activity, predator grooming, as well as the dangers of applications and cellular security.`,

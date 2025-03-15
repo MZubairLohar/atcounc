@@ -222,7 +222,7 @@ function Events() {
           <div className="w-full md:w-3/4 flex items-center justify-center mx-auto mt-6">
             <img
               className="max-w-full h-auto"
-              src="https://atcouncil.us/static/media/ATCAboutUs.2be7dba559884b0d93c3.png"
+              src="/.png"
             />
           </div>
 
