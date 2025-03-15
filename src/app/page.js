@@ -91,7 +91,7 @@ export default function Home() {
       <div className="mb-4 md:mb-0">
         <img
           className="w-24 h-28 md:w-28 md:h-44"
-          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          src="/logoo.png"
           alt="Logo"
         />
       </div>
@@ -227,7 +227,7 @@ export default function Home() {
         {/* Right Section (Image) */}
         <div className="w-[74%] md:w-/6 flex justify-center md:justify-end mt-6 md:mt-0">
           <img
-            src="https://atcouncil.us/static/media/ArmyPic.cd4ca121b07ad9ade30c.png"
+            src="armyG.png"
             className="w-82 sm:w-screen md:w-[880px] h-[100%] object-cover"
           />
         </div>
@@ -638,7 +638,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center h-60 bg-[#E93D3D] px-5">
         <img
           className="h-36 w-24"
-          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          src="/logoo.png"
           alt="ATC Logo"
         />
         <h1 className="mt-4 text-lg font-medium text-center">

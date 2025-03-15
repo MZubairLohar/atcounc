@@ -38,7 +38,7 @@ function Events() {
       <div className="mb-4 md:mb-0">
         <img
           className="w-24 h-28 md:w-28 md:h-44"
-          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          src="/logoo.png"
           alt="Logo"
         />
       </div>
@@ -92,7 +92,7 @@ function Events() {
       <div className="flex justify-center mt-10 -space-x-4">
         <div className="flex flex-col items-center ">
           <img
-            src="https://atcouncil.us/static/media/GalaryFirstRow1.389ff7591dbd676148ec.jpeg"
+            src="/GalaryFirstRow1.jpeg"
             className="w-11/12"
             alt="Image 1"
           />
@@ -103,7 +103,7 @@ function Events() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://atcouncil.us/static/media/GalaryFirstRow2.b7c54fae70142ff30c33.jpeg"
+            src="/GalaryFirstRow2.b7c54fae70142ff30c33.jpeg"
             className="w-11/12"
             alt="Image 2"
           />
@@ -120,7 +120,7 @@ function Events() {
       <div className="flex mt-10 justify-center space-x-8">
         <div className="flex flex-col items-center">
           <img
-            src="https://atcouncil.us/static/media/GalarySecondRow1.95f1de2a9e1beb035319.jpeg"
+            src="/GalarySecondRow1.95f1de2a9e1beb035319.jpeg"
             className="w-96"
             alt="Image 1"
           />
@@ -131,7 +131,7 @@ function Events() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://atcouncil.us/static/media/GalarySecondRow2.bea6bac1bfea0f73629b.jpeg"
+            src="/GalarySecondRow2.bea6bac1bfea0f73629b.jpeg"
             className="w-96"
             alt="Image 2"
           />
@@ -140,7 +140,7 @@ function Events() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://atcouncil.us/static/media/GalarySecondRow3.5cf1fc8d6a15186b3faa.jpeg"
+            src="/GalarySecondRow3.5cf1fc8d6a15186b3faa.jpeg"
             className="w-96"
             alt="Image 2"
           />
@@ -221,7 +221,7 @@ function Events() {
       <div className="flex flex-col justify-center items-center h-80 bg-[#E93D3D]">
         <img
           className="h-40 w-28"
-          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          src="/logoo.png"
           alt="ATC Logo"
         />
         <h1 className="mt-4 text-xl font-bold">

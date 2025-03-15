@@ -40,7 +40,7 @@ function EliteSponsors() {
       <div className="mb-4 md:mb-0">
         <img
           className="w-24 h-28 md:w-28 md:h-44"
-          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          src="/logoo.png"
           alt="Logo"
         />
       </div>
@@ -229,7 +229,7 @@ function EliteSponsors() {
       <div className="flex flex-col justify-center items-center h-80 bg-[#E93D3D]">
         <img
           className="h-40 w-28"
-          src="https://atcouncil.us/static/media/ATC.aca4c589794b0d6b0468.png"
+          src="/logoo.png"
           alt="ATC Logo"
         />
         <h1 className="mt-4 text-xl font-bold">
