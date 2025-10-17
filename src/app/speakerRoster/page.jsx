@@ -260,33 +260,33 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
 
         {[
-          {
-            name: "Dr. Maurizio Miglietta - Director",
-            img: "/drma.jpeg",
-            description: ` Dr. Miglietta is a Trauma Surgeon and serves as the Founder and
-              Director of the MTU. He has served as Chief of the Division of
-              Acute Care Surgery and Director of Trauma and Emergency Surgery at
-              NewYork-Presbyterian Hospital / Columbia University Medical
-              Center. Immediately prior, he served as Chief of Trauma and
-              Critical Care at the renowned and historic Bellevue Hospital / New
-              York University School of Medicine.`,
-            description1: ` Dr. Miglietta provided medical support for the United States
-              Secret Service – New York Field Office, Diplomatic Security
-              Service - State Department and continues to be an Honorary Police
-              Surgeon for the New York City Police Department. Dr. Miglietta is
-              a Professor of Surgery and Associate Dean at Touro University and
-              served as a Professor of Surgery at NYU, Columbia and Mount Sinai
-              Schools of Medicine. He served as the Director of Medical
-              Education at Hackensack Meridian Palisades and created multiple
-              residency training programs. He has approximately 30 peer-reviewed
-              publications, appears as a medical expert on various national TV
-              shows and has trained various federal agencies. Dr. Miglietta has
-              received awards from the Federal Law Enforcement Association and
-              Homeland Security Foundation for his continued work with law
-              enforcement. Dr. Miglietta was honored as one of the 2008 Crain’s
-              Business Forty Under 40. Dr. Miglietta is a Special Deputy U.S.
-              Marshal assigned to the NY/NJ Fugitive Task Force.`,
-          },
+          // {
+          //   name: "Dr. Maurizio Miglietta - Director",
+          //   img: "/drma.jpeg",
+          //   description: ` Dr. Miglietta is a Trauma Surgeon and serves as the Founder and
+          //     Director of the MTU. He has served as Chief of the Division of
+          //     Acute Care Surgery and Director of Trauma and Emergency Surgery at
+          //     NewYork-Presbyterian Hospital / Columbia University Medical
+          //     Center. Immediately prior, he served as Chief of Trauma and
+          //     Critical Care at the renowned and historic Bellevue Hospital / New
+          //     York University School of Medicine.`,
+          //   description1: ` Dr. Miglietta provided medical support for the United States
+          //     Secret Service – New York Field Office, Diplomatic Security
+          //     Service - State Department and continues to be an Honorary Police
+          //     Surgeon for the New York City Police Department. Dr. Miglietta is
+          //     a Professor of Surgery and Associate Dean at Touro University and
+          //     served as a Professor of Surgery at NYU, Columbia and Mount Sinai
+          //     Schools of Medicine. He served as the Director of Medical
+          //     Education at Hackensack Meridian Palisades and created multiple
+          //     residency training programs. He has approximately 30 peer-reviewed
+          //     publications, appears as a medical expert on various national TV
+          //     shows and has trained various federal agencies. Dr. Miglietta has
+          //     received awards from the Federal Law Enforcement Association and
+          //     Homeland Security Foundation for his continued work with law
+          //     enforcement. Dr. Miglietta was honored as one of the 2008 Crain’s
+          //     Business Forty Under 40. Dr. Miglietta is a Special Deputy U.S.
+          //     Marshal assigned to the NY/NJ Fugitive Task Force.`,
+          // },
 
           {
             name: "Michael Vaiani - Founder",
