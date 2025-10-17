@@ -408,11 +408,11 @@ export default function Home() {
         {/* Responsive Card Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center pt-20 px-4">
           {[
-            {
-              name: "Dr. Maurizio Miglietta",
-              role: "Director",
-              img: "/drma.jpeg",
-            },
+            // {
+            //   name: "Dr. Maurizio Miglietta",
+            //   role: "Director",
+            //   img: "/drma.jpeg",
+            // },
             {
               name: "Michael Vaiani",
               role: "Founder",
